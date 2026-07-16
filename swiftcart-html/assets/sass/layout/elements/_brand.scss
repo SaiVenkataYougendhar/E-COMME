@@ -1,0 +1,33 @@
+.xc-brand-one{
+    &__item{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        min-height: 200px;
+        padding-top: 50px;
+        padding-bottom: 40px;
+        text-align: center;
+        border: 1px solid var(--swiftcart-border-color);
+        border-radius: 10px;
+        transition: .3s;
+        &:hover{
+            border-color: var(--swiftcart-base);
+        }
+    }
+    &__title{
+        font-size: 18px;
+        font-weight: 600;
+        color: var(--swiftcart-text);
+        & a:hover{
+            color: var(--swiftcart-secondary);
+        }
+    }
+    & img{
+        margin-bottom: 20px;
+    }
+}
+
+div.xc-ads-one__img img{
+    border-radius: 10px;
+}

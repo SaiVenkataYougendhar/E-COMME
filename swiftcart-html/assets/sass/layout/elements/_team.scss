@@ -1,0 +1,62 @@
+.xc-team-one {
+    &__item {
+        position: relative;
+        &:hover {
+            .xc-team-one__img {
+                img {
+                    transform: scale(1.08)
+                }
+            }
+        }
+    }
+
+    &__img {
+        position: relative;
+        z-index: 1;
+        border-radius: 50% 0 40% 0;
+        overflow: hidden;
+        margin-bottom: 20px;
+        border-left: 3px solid var(--swiftcart-base);
+        & img {
+            transition: .3s;
+        }
+
+        &::before {
+            content: '';
+            height: 75%;
+            width: 100%;
+            bottom: 0;
+            left: 0;
+            position: absolute;
+            background-color: var(--swiftcart-base);
+            z-index: -1;
+            border-radius: 50% 0 40% 0;
+        }
+    }
+
+    &__name {
+        font-size: 22px;
+        margin-bottom: 0;
+
+        & a {
+            color: currentColor;
+
+            &:hover {
+                color: var(--swiftcart-base);
+            }
+        }
+    }
+
+    &__social {
+        display: flex;
+        gap: 15px;
+
+        & a {
+            font-size: 14px;
+
+            &:hover {
+                color: var(--swiftcart-base);
+            }
+        }
+    }
+}

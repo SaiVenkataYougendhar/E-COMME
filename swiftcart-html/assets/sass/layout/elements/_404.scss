@@ -1,0 +1,14 @@
+.xc-error-one{
+    &__content{
+        img {
+            margin-bottom: 30px;
+        }
+    }
+    &__title{
+        font-size: 30px;
+        margin-bottom: 10px;
+        @media #{$lg} {
+            font-size: 50px;
+        }
+    }
+}

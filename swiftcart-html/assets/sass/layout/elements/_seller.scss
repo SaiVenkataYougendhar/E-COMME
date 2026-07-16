@@ -1,0 +1,116 @@
+.xc-seller-one {
+    &__item {
+        text-align: center;
+        padding: 60px 10px;
+    }
+
+    &__content {
+        margin-bottom: 60px;
+        img {
+            margin-bottom: 25px;
+        }
+    }
+
+    &__title {
+        font-size: 20px;
+        font-weight: 600;
+        color: var(--swiftcart-black);
+        margin-bottom: 10px;
+        a {
+            &:hover{
+                color: var(--swiftcart-secondary);
+            }
+        }
+    }
+
+    &__ratting {
+        font-size: 14px;
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        & i {
+            color: #FA8232;
+            font-size: 16px;
+        }
+    }
+
+    
+
+    &__wrapper {
+        border: 1px solid var(--swiftcart-border-color);
+        border-radius: 10px;
+        overflow: hidden;
+        .row [class*=col] {
+            border-right: 1px solid var(--swiftcart-border-color);
+            border-bottom: 1px solid var(--swiftcart-border-color);
+            margin-bottom: -2px;
+            margin-left: 1px;
+            margin-right: -1px;
+        }
+    }
+    &__btn{
+        color: var(--swiftcart-black);
+        font-size: 18px;
+        font-weight: 500;
+        &:hover{
+            color: var(--swiftcart-base);
+        }
+        & i {
+            position: relative;
+            top: 2px;
+        }
+    }
+}
+.xc-seller-two {
+    &__item {
+        text-align: center;
+        padding: 60px 10px;
+        background-color: var(--swiftcart-white);
+    }
+
+    &__content {
+        margin-bottom: 60px;
+        img {
+            margin-bottom: 25px;
+        }
+    }
+
+    &__title {
+        font-size: 20px;
+        font-weight: 600;
+        color: var(--swiftcart-black);
+        margin-bottom: 10px;
+        a {
+            &:hover{
+                color: var(--swiftcart-secondary);
+            }
+        }
+    }
+
+    &__ratting {
+        font-size: 14px;
+        & i {
+            color: #FA8232;
+            font-size: 16px;
+        }
+    }
+    &__btn{
+        font-size: 16px;
+        font-weight: 500;
+        color: var(--swiftcart-white);
+        background-color: var(--swiftcart-base);
+        display: inline-block;
+        padding: 8px 25px;
+        text-transform: uppercase;
+        border-radius: 8px;
+        transition: .3s;
+        &:hover{
+            color: var(--swiftcart-white);
+            background-color: var(--swiftcart-secondary);
+        }
+        & i {
+            position: relative;
+            top: 2px;
+        }
+    }
+}

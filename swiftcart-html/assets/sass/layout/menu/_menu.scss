@@ -1,0 +1,245 @@
+/*----------------------------------------*/
+/*  4.1 Main menu css
+/*----------------------------------------*/
+
+.xc-main-menu {
+    & ul {
+        & li {
+            position: relative;
+            list-style: none;
+            display: inline-block;
+            transition: .3s;
+
+
+            &+li {
+                margin-left: 30px;
+            }
+
+            & a {
+                display: inline-block;
+                font-size: 16px;
+                color: var(--swiftcart-black);
+                padding: 14px 0;
+                font-weight: 600;
+                text-transform: capitalize;
+                font-family: var(--swiftcart-heading-font);
+                transition: .3s;
+
+            }
+
+            &.menu-item-has-children,
+            &.has-dropdown {
+                &>a {
+                    position: relative;
+
+                    &::after {
+                        content: '\f107';
+                        transform: translateY(1px);
+                        font-size: 14px;
+                        font-weight: 900;
+                        color: var(--swiftcart-black);
+                        font-family: "Font Awesome 6 Free";
+                        margin-left: 5px;
+                        display: inline-block;
+                        transition: .3s;
+                    }
+                }
+            }
+
+            & .submenu {
+                padding: 20px 0;
+                display: inline-block;
+                margin: 0;
+                position: absolute;
+                top: 120%;
+                left: 0;
+                // height: 10px;
+                width: 230px;
+                background: var(--swiftcart-white);
+                z-index: 99;
+                transition: .3s;
+                visibility: hidden;
+                opacity: 0;
+                box-shadow: 0px 4px 60px rgba(69, 105, 231, 0.15);
+                border-radius: 0px 0px 5px 5px;
+                border: 0px solid transparent;
+                transition: 0.4s;
+                border-top: 2px solid var(--swiftcart-base);
+                pointer-events: none;
+
+                & li {
+                    display: block;
+                    width: 100%;
+                    margin: 0;
+                    transition: .3s;
+
+                    &.menu-item-has-children,
+                    &.has-dropdown {
+                        &>a {
+                            &::after {
+                                position: absolute;
+                                top: 50%;
+                                right: 25px;
+                                transform: translateY(-50%) rotate(-90deg) scale(0);
+                                transition: .3s;
+                            }
+                        }
+                    }
+
+                    & a {
+                        padding: 10px 30px;
+                        font-size: 14px;
+                        position: relative;
+                        z-index: 1;
+                        color: var(--swiftcart-black);
+                        width: 100%;
+                        transition: .3s;
+                    }
+
+                    & .submenu {
+                        left: 120%;
+                        top: 0;
+                        visibility: hidden;
+                        opacity: 0;
+                    }
+
+                    &:hover {
+                        &>a {
+                            color: var(--swiftcart-base);
+
+                            &::after {
+                                color: var(--swiftcart-base);
+                                transform: translateY(-50%) rotate(-90deg) scale(1);
+                            }
+                        }
+
+                        &>.submenu {
+                            left: 100%;
+                            visibility: visible;
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+
+            &:hover {
+
+                &>a {
+                    color: var(--swiftcart-base);
+
+                    &::after {
+                        color: var(--swiftcart-base);
+                        transform: rotate(180deg);
+                    }
+                }
+
+                &>.submenu {
+                    top: 100%;
+                    visibility: visible;
+                    opacity: 1;
+                    pointer-events: auto;
+                }
+            }
+
+            &.current {
+                a {
+                    color: var(--swiftcart-base);
+
+                    &::after {
+                        color: var(--swiftcart-base);
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+
+.xc-main-menu.xc-white-menu {
+    & ul {
+        & li {
+            & a {
+                color: var(--swiftcart-white);
+            }
+
+            &.menu-item-has-children,
+            &.has-dropdown {
+                &>a {
+                    &::after {
+                        color: var(--swiftcart-white);
+                       
+                    }
+                }
+            }
+
+            & .submenu {
+                background: var(--swiftcart-white);
+                & li {
+                    & a {
+                        color: var(--swiftcart-black);
+                        &::before {
+                            background-color: var(--swiftcart-base);
+                        }
+
+                    }
+                    &:hover {
+                        &>a {
+                            color: var(--swiftcart-base);
+                            &::after {
+                                color: var(--swiftcart-base);
+                            }
+                        }
+                    }
+                }
+            }
+
+            &:hover {
+
+                &>a {
+                    color: var(--swiftcart-base);
+
+                    &::after {
+                        color: var(--swiftcart-base);
+                    }
+                }
+            }
+
+            &.current {
+                a {
+                    color: var(--swiftcart-secondary);
+
+                    &::after {
+                        color: var(--swiftcart-secondary);
+                    }
+                    &:hover{
+                        color: var(--swiftcart-base);
+                        &::after {
+                            color: var(--swiftcart-base);
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+
+    .xc-main-menu li:nth-last-child(1) ul li>ul,
+    .xc-main-menu li:nth-last-child(2) ul li>ul {
+        left: auto !important;
+        right: calc(100%);
+    }
+}
+
+.xc-main-menu ul li ul li.current>a,
+.xc-main-menu ul li ul li:hover>a {
+    color: var(--swiftcart-base);
+}
+
+.xc-main-menu.xc-white-menu ul li ul li.current>a,
+.xc-main-menu.xc-white-menu ul li ul li:hover>a {
+    color: var(--swiftcart-base);
+}

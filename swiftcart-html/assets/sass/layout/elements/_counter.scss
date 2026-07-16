@@ -1,0 +1,41 @@
+.xc-counter-one {
+    &__item {
+        text-align: center;
+    }
+
+    &__count {
+        color: var(--swiftcart-white);
+        font-size: 40px;
+        font-weight: 500;
+        font-family: var(--swiftcart-heading-font);
+        margin-bottom: 0;
+
+        @media #{$lg} {
+            font-size: 80px;
+        }
+    }
+
+    &__title {
+        font-size: 16px;
+        letter-spacing: 6.8px;
+        text-transform: uppercase;
+        color: var(--swiftcart-white);
+    }
+}
+
+.xc-counter-two {
+    &__icon {
+        font-size: 30px;
+        color: var(--swiftcart-white);
+        margin-bottom: 20px;
+    }
+    &__count {
+        color: var(--swiftcart-base);
+        font-size: 32px;
+        font-weight: 500;
+    }
+    &__title{
+        color: var(--swiftcart-white);
+        margin-bottom: 0;
+    }
+}

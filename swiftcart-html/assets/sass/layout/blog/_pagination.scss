@@ -1,0 +1,37 @@
+.xc-pagination {
+    margin-top: 50px;
+
+    & ul {
+        padding-left: 0;
+        margin-bottom: 0;
+        display: inline-flex;
+        gap: 5px;
+        @media #{$md} {
+            gap: 15px;
+        }
+        & li {
+            display: inline-block;
+        }
+    }
+
+    & a,
+    & span {
+        display: inline-block;
+        width: 48px;
+        height: 48px;
+        line-height: 48px;
+        text-align: center;
+        border-radius: 12.12px;
+        border: 1px solid var(--swiftcart-border-color);
+        font-size: 20px;
+        font-weight: 600;
+        transition: .3s;
+        color: var(--swiftcart-black);
+        &:hover,
+        &.current {
+            background-color: var(--swiftcart-base);
+            color: var(--swiftcart-white);
+            border-color: transparent;
+        }
+    }
+}

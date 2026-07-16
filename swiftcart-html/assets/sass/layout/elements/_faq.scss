@@ -1,0 +1,91 @@
+.xc-faq-one {
+    &__left {
+        background-color: var(--swiftcart-white);
+        padding: 40px 30px;
+        border-radius: 10px;
+    }
+
+    &__search {
+        position: relative;
+        margin-bottom: 35px;
+
+        input {
+            border-radius: 30px;
+            padding-right: 80px;
+            background-color: var(--swiftcart-white);
+        }
+
+        button {
+            position: absolute;
+            top: 17px;
+            right: 30px;
+            font-size: 26px;
+            color: var(--swiftcart-base);
+        }
+    }
+
+    &__form {
+        &__title {
+            font-size: 24px;
+        }
+
+        & textarea,
+        & input {
+            background-color: transparent;
+            border: 0;
+            padding-left: 0;
+            padding-top: 0;
+            margin-bottom: 30px;
+            border-bottom: 1px solid var(--swiftcart-border-color);
+        }
+
+        & textarea {
+            height: 80px;
+            resize: none;
+            overflow: hidden;
+        }
+    }
+
+    &__right {
+        @media #{$xl} {
+            padding-left: 50px;
+        }
+    }
+}
+
+.swiftcart-accordion-one {
+    .xc-accordion {
+        background-color: var(--swiftcart-white);
+        padding: 30px 25px;
+        margin-bottom: 12px;
+        border-radius: 7px;
+
+        &.active span {
+            transform: rotate(90deg);
+        }
+    }
+
+    .xc-accordion-title {
+        position: relative;
+
+        span {
+            color: var(--swiftcart-black);
+            transition: .3s;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+    }
+
+    .xc-accordion-question {
+        padding-right: 15px;
+        font-size: 18px;
+        cursor: pointer;
+        margin-bottom: 0;
+    }
+
+    .xc-accordion-answer p {
+        margin-bottom: 0;
+        margin-top: 15px;
+    }
+}

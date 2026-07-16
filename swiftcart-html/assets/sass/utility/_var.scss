@@ -1,0 +1,40 @@
+:root {
+
+	// font family 
+	--swiftcart-font: "Public Sans", sans-serif;
+	--swiftcart-heading-font: "Inter", sans-serif;
+	--swiftcart-special-font: 'Public Sans', sans-serif;
+
+	// letter spacing 
+	--swiftcart-letter-space: 0.1em;
+	--swiftcart-letter-space-xl: 0.2em;
+
+	// border radious
+	--swiftcart-border-radius: 5px;
+
+	// border radious
+	--swiftcart-box-shadow: 0px 0px 150px 0px rgba(78, 67, 250, 0.06);
+	--swiftcart-body: #F8F8F8;
+
+	// colors
+	--swiftcart-base: #127FFF;
+	--swiftcart-base-rgb: #{toRGB(#127FFF)};
+	--swiftcart-secondary: #EB001B;
+	--swiftcart-secondary-rgb: #{toRGB(#EB001B)};
+	--swiftcart-text: #757575;
+	--swiftcart-text-rgb: #{toRGB(#757575)};
+	--swiftcart-text-gray: #89868d;
+	--swiftcart-text-gray-rgb: #{toRGB(#89868d)};
+	--swiftcart-gray: #F3F3F4;
+	--swiftcart-gray-rgb: #{toRGB(#F3F3F4)};
+	--swiftcart-gray-2: #E8E8E8;
+	--swiftcart-gray-2-rgb: #{toRGB(#E8E8E8)};
+	--swiftcart-white: #fff;
+	--swiftcart-white-rgb: #{toRGB(#fff)};
+	--swiftcart-black: #1C1C1C;
+	--swiftcart-black-2: #191C1F;
+	--swiftcart-black-rgb: #{toRGB(#1C1C1C)};
+	--swiftcart-black-2-rgb: #{toRGB(#191C1F)};
+	--swiftcart-border-color: #DEE2E7;
+	--swiftcart-border-color-rgb: #{toRGB(#DEE2E7)};
+}

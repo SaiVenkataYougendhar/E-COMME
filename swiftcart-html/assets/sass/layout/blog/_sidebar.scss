@@ -1,0 +1,224 @@
+/*----------------------------------------*/
+/*  5.3 Sidebar css
+/*----------------------------------------*/
+
+.xc-sidebar {
+    @media #{$lg} {
+        padding-left: 50px;
+    }
+
+    &__widget {
+        padding: 30px 15px;
+        background: var(--swiftcart-white);
+        border-radius: 10px;
+
+        @media #{$md} {
+            padding: 50px 30px;
+        }
+
+        &+.xc-sidebar__widget {
+            margin-top: 40px;
+        }
+
+        &-title {
+            color: var(--swiftcart-black);
+            font-size: 22px;
+            font-weight: 700;
+            position: relative;
+            margin-bottom: 30px;
+            line-height: 1.4;
+            text-transform: capitalize;
+        }
+
+        & ul.xc-sidebar__categories {
+            padding-left: 0;
+            margin-left: 0;
+            margin-bottom: 0;
+
+            & li {
+                list-style: none;
+
+                &+li {
+                    margin-top: 10px;
+                }
+
+                a {
+                    font-size: 16px;
+                    line-height: 1;
+                    color: var(--swiftcart-black);
+                    position: relative;
+                    padding-left: 5px;
+                    display: inline-block;
+                    width: 100%;
+                    padding: 19px 20px;
+                    padding-left: 40px;
+                    transition: .3s;
+                    border: 1px solid var(--swiftcart-border-color);
+                    position: relative;
+                    z-index: 1;
+                    border-radius: 10px;
+
+                    & span {
+                        position: absolute;
+                        right: 20px;
+                    }
+
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 0;
+                        bottom: 0;
+                        background-color: var(--swiftcart-base);
+                        z-index: -1;
+                        border-radius: 10px;
+                        transition: .3s;
+                    }
+
+                    &::after {
+                        position: absolute;
+                        left: 18px;
+                        top: 21px;
+                        font-size: 11px;
+                        content: "\f105";
+                        color: var(--swiftcart-text);
+                        font-family: 'icomoon' !important;
+                        transition: .3s;
+                    }
+
+                    &:hover {
+                        color: var(--swiftcart-white);
+
+                        &::after {
+                            color: var(--swiftcart-white);
+                        }
+
+                        &::before {
+                            width: 100%;
+                        }
+                    }
+                }
+
+                & ul {
+                    padding-left: 25px;
+                    padding-top: 20px;
+                }
+            }
+        }
+    }
+
+    &__search {
+        position: relative;
+
+        & input {
+            width: 100%;
+            height: 60px;
+            line-height: 60px;
+            background: #F2F4F8;
+            border: 0;
+            color: #111111;
+            padding: 0 25px;
+            text-transform: capitalize;
+            outline: none;
+            padding-top: 3px;
+            padding-right: 70px;
+        }
+
+        & button {
+            position: absolute;
+            top: 0;
+            right: 20px;
+            height: 100%;
+            color: #111;
+            line-height: 60px;
+            border-radius: 0 7px 7px 0;
+            transition: .3s;
+
+            &:hover {
+                color: var(--swiftcart-base);
+            }
+        }
+
+    }
+}
+
+.xc-sidebar {
+    &__blog+&__blog {
+        margin-top: 10px;
+    }
+
+    &__blog {
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        @media #{$md} {
+            gap: 15px;
+            flex-direction: row;
+            align-items: center;
+            
+        }
+
+        &-thumb {
+            & img {
+                width: 85px;
+                height: 85px;
+                object-fit: cover;
+            }
+        }
+
+        &-meta {
+            span {
+                margin-right: 10px;
+                font-size: 13px;
+
+                & i {
+                    color: var(--swiftcart-base);
+                    margin-right: 5px;
+                }
+            }
+        }
+
+        &-title {
+            line-height: 1;
+
+            & a {
+                font-size: 16px;
+                color: var(--swiftcart-black);
+                font-weight: 600;
+                line-height: 1;
+                background-image: linear-gradient(currentcolor, currentcolor), linear-gradient(currentcolor, currentcolor);
+                display: inline;
+                background-size: 0% 1px, 0 1px;
+                background-position: 100% 100%, 0 100%;
+                background-repeat: no-repeat;
+                transition: 0.4s;
+
+                &:hover {
+                    opacity: 1;
+                    background-size: 0% 1px, 100% 1px;
+                }
+            }
+        }
+    }
+}
+
+.catscloud,
+.tagcloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    & a {
+        display: inline-block;
+        background-color: var(--swiftcart-gray);
+        color: var(--swiftcart-text);
+        padding: 5px 15px;
+        transition: .3s;
+
+        &:hover {
+            color: var(--swiftcart-white);
+            background-color: var(--swiftcart-base);
+        }
+    }
+}

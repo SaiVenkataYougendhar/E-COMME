@@ -1,0 +1,2473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce Multipurpose HTML Template</title>
+
+    <!-- favicons Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png" />
+    <link rel="manifest" href="assets/img/favicons/site.webmanifest" />
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Package Css link -->
+    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/vendors/nice-select/css/nice-select.css" />
+    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
+    <link rel="stylesheet" href="assets/vendors/meanmenu/css/meanmenu.css" />
+    <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css" />
+    <link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css" />
+    <link rel="stylesheet" href="assets/vendors/swiftcart-icons/style.css" />
+    <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css" />
+    <link rel="stylesheet" href="assets/vendors/glightbox/css/glightbox.min.css" />
+    <link rel="stylesheet" href="assets/vendors/spacing/spacing.css" />
+    <!-- template styles -->
+    <link rel="stylesheet" href="assets/css/swiftcart.css" />
+
+    <!-- template styles -->
+    <link rel="stylesheet" href="assets/css/swiftcart.css" />
+
+
+
+</head>
+
+<body>
+
+    <div class="xc-preloader">
+        <div class="xc-preloader__image">
+            <img src="assets/img/preloader/preloader.png" alt="preloader">
+        </div>
+    </div>
+
+    <!-- /.preloader -->
+    <div class="xc-page-wrapper">
+        <div class="xc-scrollbar_progress"></div>
+        <header>
+            <div class="xc-header-two__top d-none d-lg-block">
+                <div class="container">
+                    <div class="xc-header-two__top-wrapper d-flex justify-content-between">
+                        <div class="xc-header-two__top-left">
+                            <p>Welcome to online eCommerce store.</p>
+                        </div>
+                        <div class="xc-header-two__top-right">
+                            <div class="xc-header-two__lang">
+                                <select class="xc-header-two__lang-select">
+                                    <option value="en">Eng</option>
+                                    <option value="ar">Ar</option>
+                                    <option value="hi">Bd</option>
+                                    <option value="ee">EEk</option>
+                                </select>
+                            </div>
+                            <div class="xxc-header-two__currency">
+                                <select class="xc-header-two__currency-select">
+                                    <option value="USD">USD</option>
+                                    <option value="EUR">EUR</option>
+                                    <option value="CZK">CZK</option>
+                                    <option value="EEK">EEK</option>
+                                </select>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="xc-header-two base-bg" id="xc-header-sticky">
+                <div class="container">
+                    <div class="xc-header-two__wrapper">
+                        <div class="xc-header-two__logo">
+                            <a href="index.html"><img src="assets/img/logo/white-logo-2.png" alt="logo" width="158"></a>
+                        </div>
+                        <div class="xc-header-two__right">
+                            <div class="xc-header-two__search d-none d-xl-block">
+                                <form action="#">
+                                    <input type="search" placeholder="Search for anything...">
+                                    <button type="submit"><i class="icon-magnifying-glass"></i></button>
+                                </form>
+                            </div>
+                            <div class="xc-header-two__btns d-none d-lg-flex">
+                                <a href="#" class="xc-header-two__btn">
+                                    <i class="icon-shopping-cart"></i>
+                                    <span class="xc-cart-count">2</span>
+                                </a>
+                                <a href="#" class="xc-header-two__btn">
+                                    <i class="icon-love"></i>
+                                </a>
+                                <a href="#" class="xc-header-two__btn">
+                                    <i class="icon-user-1"></i>
+                                </a>
+                                <!-- mobile drawer  -->
+                                <div class="xc-header-two__hamburger d-xl-none">
+                                    <button type="button" class="xc-offcanvas-btn xc-header-two__btn">
+                                        <i class="icon-menu"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- mobile drawer  -->
+                        <div class="xc-header-two__hamburger d-lg-none">
+                            <button type="button" class="xc-offcanvas-btn xc-header-two__btn">
+                                <i class="icon-menu"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="xc-header-two__bottom d-none d-lg-block">
+                <div class="container">
+                    <div class="xc-header-two__bottom-wrapper">
+                        <div class="xc-header-two__bottom-left">
+                            <select>
+                                <option value="1" selected disabled>All category</option>
+                                <option value="2">Health & Beauty</option>
+                                <option value="3">Digital & Electronics</option>
+                                <option value="4">Tools, equipments</option>
+                            </select>
+                            <div class="xc-header-one__menu xc-main-menu">
+                                <nav id="mobile-menu">
+                                    <ul class="ul-0">
+                                        <li class="has-dropdown">
+                                            <a href="index.html">Home</a>
+                                            <ul class="submenu">
+                                                <li><a href="index.html">Home One</a></li>
+                                                <li><a href="index-2.html">Home Two</a></li>
+                                                <li><a href="index-3.html">Home Three</a></li>
+
+                                            </ul>
+                                        </li>
+                                        <li><a href="about.html">About</a></li>
+                                        <li class="has-dropdown"><a href="shop.html">Shop</a>
+                                            <ul class="submenu">
+                                                <li><a href="shop.html">Shop</a>
+                                                <li><a href="product-details.html">Product Details</a></li>
+                                                <li><a href="cart.html">Cart</a></li>
+                                                <li><a href="checkout.html">Checkout</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-dropdown"><a href="#">Page</a>
+                                            <ul class="submenu">
+                                                <li><a href="product-landing.html">Product Landing</a></li>
+                                                <li><a href="vendor.html">Vendor</a></li>
+                                                <li><a href="faq.html">Faq</a></li>
+                                                <li><a href="404.html">404</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-dropdown">
+                                            <a href="blog-list.html">Blog</a>
+                                            <ul class="submenu">
+                                                <li>
+                                                    <a href="blog-grid.html">Blog Grid</a>
+                                                </li>
+                                                <li class="has-dropdown">
+                                                    <a href="blog-list.html">Blog List</a>
+                                                    <ul class="submenu">
+                                                        <li><a href="blog-list-no-sidebar.html">No Sidebar</a></li>
+                                                        <li><a href="blog-list.html">Right Sidebar</a></li>
+                                                        <li><a href="blog-list-left-sidebar.html">Left Sidebar</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="blog-details.html">Blog Details</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="contact.html">Contact</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="xc-header-two__bottom-right">
+                            <div class="xc-header-two__cta">
+                                <a href="#"><i class="icon-support"></i>Customer Support</a>
+                                <a href="#"><i class="icon-info"></i>Need Help</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="xc-body-overlay xc-close-toggler"></div>
+        <div class="xc-search-popup">
+            <div class="xc-search-popup__wrap">
+                <a href="#" class="xc-search-popup__close xc-close-toggler"></a>
+                <div class="xc-search-popup__form">
+                    <form role="search" method="get" action="#">
+                        <input type="search" placeholder="Search Here..." value="" name="s">
+                        <button type="submit"><i class="icon-search"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="xc-mobile-nav__wrapper">
+            <div class="xc-mobile-nav__overlay xc-close-toggler"></div>
+            <!-- /.mobile-nav__overlay -->
+            <div class="xc-mobile-nav__content">
+                <a href="#" class="xc-mobile-nav__close xc-search-popup__close xc-close-toggler"></a>
+                <div class="logo-box">
+                    <a href="index.html"><img src="assets/img/logo/white-logo.png" width="150" alt="" /></a>
+                </div>
+                <!-- /.logo-box -->
+                <div class="xc-mobile-nav__menu"></div>
+                <!-- /.mobile-nav__container -->
+
+                <ul class="xc-mobile-nav__contact list-unstyled">
+                    <li>
+                        <i class="fa fa-envelope"></i>
+                        <a href="mailto:needhelp@swiftcart.com">needhelp@corpai.com</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-phone-alt"></i>
+                        <a href="tel:666-888-0000">666 888 0000</a>
+                    </li>
+                </ul><!-- /.mobile-nav__contact -->
+                <div class="xc-mobile-nav__top">
+                    <div class="xc-mobile-nav__social">
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-facebook-square"></a>
+                        <a href="#" class="fab fa-pinterest-p"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                    </div><!-- /.mobile-nav__social -->
+                </div><!-- /.mobile-nav__top -->
+            </div>
+            <!-- /.mobile-nav__content -->
+        </div>
+        <!-- /.mobile-nav__wrapper -->
+        <div class="xc-back-to-top-wrapper">
+            <button id="xc_back-to-top" type="button" class="xc-back-to-top-btn">
+                <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11 6L6 1L1 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+                <span class="xc-back-to-top-progress"></span>
+            </button>
+        </div>
+
+        <!-- xc main slider two start -->
+        <div class="xc-header-two-banner pt-25 pb-25">
+            <div class="container">
+                <div class="row gutter-y-20">
+                    <div class="col-xxl-8">
+                        <div class="xc-main-slider xc-main-slider-two">
+                            <div class="xc-main-slider__carousel swiftcart-owl__carousel owl-carousel" data-owl-options='{
+                        "loop": true,
+                        "animateOut": "fadeOut",
+                        "animateIn": "fadeIn",
+                        "items": 1,
+                        "autoplay": true,
+                        "autoplayTimeout": 7000,
+                        "smartSpeed": 1000,
+                        "nav": false,
+                        "navText": ["<span class=\"fa-solid fa-chevron-left\"></span>","<span class=\"fa-solid fa-chevron-right\"></span>"],
+                        "dots": true,
+                        "margin": 0
+                        }'>
+                                <div class="xc-main-slider__item">
+                                    <div class="xc-main-slider__left">
+                                        <div class="xc-main-slider__content">
+                                            <span class="xc-main-slider__subtitle">THE BEST PLACE TO PLAY</span>
+                                            <h3 class="xc-main-slider__title">Xbox Consoles</h3>
+                                            <p class="xc-main-slider__info">Save up to 50% on select Xbox games. Get <br> 3
+                                                months of PC Game Pass for $2 USD.
+                                            </p>
+                                            <div class="xc-main-slider__btn">
+                                                <a class="swiftcart-btn" href="shop.html">Shop now <i class="icon-next"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="xc-main-slider__right">
+                                        <div class="xc-main-slider__img">
+                                            <img src="assets/img/slider/slider-2-1.png" alt="mobile">
+                                            <span class="xc-main-slider__price">$299</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="xc-main-slider__item">
+                                    <div class="xc-main-slider__left">
+                                        <div class="xc-main-slider__content">
+                                            <span class="xc-main-slider__subtitle">THE BEST PLACE TO PLAY</span>
+                                            <h3 class="xc-main-slider__title">Xbox Consoles</h3>
+                                            <p class="xc-main-slider__info">Save up to 50% on select Xbox games. Get <br> 3
+                                                months of PC Game Pass for $2 USD.
+                                            </p>
+                                            <div class="xc-main-slider__btn">
+                                                <a class="swiftcart-btn" href="shop.html">Shop now <i class="icon-next"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="xc-main-slider__right">
+                                        <div class="xc-main-slider__img">
+                                            <img src="assets/img/slider/slider-2-1.png" alt="mobile">
+                                            <span class="xc-main-slider__price">$299</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="xc-main-slider__item">
+                                    <div class="xc-main-slider__left">
+                                        <div class="xc-main-slider__content">
+                                            <span class="xc-main-slider__subtitle">THE BEST PLACE TO PLAY</span>
+                                            <h3 class="xc-main-slider__title">Xbox Consoles</h3>
+                                            <p class="xc-main-slider__info">Save up to 50% on select Xbox games. Get <br> 3
+                                                months of PC Game Pass for $2 USD.
+                                            </p>
+                                            <div class="xc-main-slider__btn">
+                                                <a class="swiftcart-btn" href="shop.html">Shop now <i class="icon-next"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="xc-main-slider__right">
+                                        <div class="xc-main-slider__img">
+                                            <img src="assets/img/slider/slider-2-1.png" alt="mobile">
+                                            <span class="xc-main-slider__price">$299</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-4">
+                        <div class="xc-header-two-banner">
+                            <div class="xc-header-two-banner-one bg-black">
+                                <div class="xc-header-two-banner-one__item">
+                                    <div class="xc-header-two-banner-one__left">
+                                        <span>Summer Sales</span>
+                                        <h3 class="xc-header-two-banner-one__title">New Google <br> Pixel 6 Pro</h3>
+                                        <a class="swiftcart-btn" href="shop.html">Shop now <i class="icon-next"></i></a>
+                                    </div>
+                                    <div class="xc-header-two-banner-one__right">
+                                        <img src="assets/img/banner/banner-home-1.png" alt="banner">
+                                        <span class="xc-header-two-banner-one__offer">29% OFF</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="xc-header-two-banner-two bg-black">
+                                <div class="xc-header-two-banner-two__item">
+                                    <div class="xc-header-two-banner-two__right">
+                                        <img src="assets/img/banner/banner-home-2.png" alt="banner">
+                                    </div>
+                                    <div class="xc-header-two-banner-two__left">
+                                        <h3 class="xc-header-two-banner-one__title">Xiaomi <br> FlipBuds Pro</h3>
+                                        <h4 class="xc-header-two-banner-one__price">$299 USD</h4>
+                                        <a class="swiftcart-btn" href="shop.html">Shop now <i class="icon-next"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- xc main slider two end  -->
+
+        <!-- feature one start -->
+        <div class="xc-features-one pb-80">
+            <div class="container">
+                <div class="row gutter-y-30">
+                    <div class="col-xl-3 col-md-6">
+                        <div class="xc-feature-one__item">
+                            <div class="xc-feature-one__icon">
+                                <i class="icon-box"></i>
+                            </div>
+                            <div class="xc-feature-one__content">
+                                <h3 class="xc-feature-one__title">Fasted Delivery</h3>
+                                <p class="xc-feature-one__info">Delivery in 24/H</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6">
+                        <div class="xc-feature-one__item">
+                            <div class="xc-feature-one__icon">
+                                <i class="icon-clock"></i>
+                            </div>
+                            <div class="xc-feature-one__content">
+                                <h3 class="xc-feature-one__title">24 Hours Return</h3>
+                                <p class="xc-feature-one__info">Money-back guarantee</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6">
+                        <div class="xc-feature-one__item">
+                            <div class="xc-feature-one__icon">
+                                <i class="icon-credit-card"></i>
+                            </div>
+                            <div class="xc-feature-one__content">
+                                <h3 class="xc-feature-one__title">Secure Payment</h3>
+                                <p class="xc-feature-one__info">Your money is safe</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6">
+                        <div class="xc-feature-one__item">
+                            <div class="xc-feature-one__icon">
+                                <i class="icon-support"></i>
+                            </div>
+                            <div class="xc-feature-one__content">
+                                <h3 class="xc-feature-one__title">Support 24/7</h3>
+                                <p class="xc-feature-one__info">Live contact/message</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- feature one end -->
+
+        <!-- product cat one start -->
+        <div class="xc-category-one pb-80">
+            <div class="container">
+                <div class="xc-sec-heading xc-sec-heading-two mb-40">
+                    <span class="xc-sec-heading__subtitle has-before">Categories</span>
+                    <h3 class="xc-sec-heading__title">Popular Categories</h3>
+                </div>
+                <div class="xc-category-slider__carousel swiftcart-owl__carousel owl-carousel" data-owl-options='{
+            "loop": true,
+            "animateOut": "fadeOut",
+            "animateIn": "fadeIn",
+            "items": 10,
+            "autoplay": true,
+            "autoplayTimeout": 7000,
+            "smartSpeed": 1000,
+            "nav": false,
+            "navText": ["<span class=\"fa-solid fa-chevron-left\"></span>","<span class=\"fa-solid fa-chevron-right\"></span>"],
+            "dots": true,
+            "margin": 0,
+            "responsive":{
+                "0":{
+                    "items":2,
+                    "margin": 0
+                },
+                "360":{
+                    "items":3,
+                    "margin": 20
+                },
+                "576":{
+                    "items":4,
+                    "margin": 30
+                },
+                "768":{
+                    "items":5,
+                    "margin": 40
+                },
+                "992":{
+                    "items": 6,
+                    "margin": 40
+                },
+                "1200":{
+                    "items": 8,
+                    "margin": 40
+                }
+            }
+            }'>
+                    <div class="xc-category-one__item">
+                        <div class="xc-category-one__img">
+                            <img src="assets/img/cats/pd-cat-1.png" alt="cat">
+                        </div>
+
+                        <h3 class="xc-category-one__title"><a href="#">Gaming</a></h3>
+                    </div>
+                    <div class="xc-category-one__item">
+                        <div class="xc-category-one__img">
+                            <img src="assets/img/cats/pd-cat-2.png" alt="cat">
+                        </div>
+                        <h3 class="xc-category-one__title"><a href="#">Sport Equip</a></h3>
+                    </div>
+                    <div class="xc-category-one__item">
+                        <div class="xc-category-one__img">
+                            <img src="assets/img/cats/pd-cat-3.png" alt="cat">
+                        </div>
+                        <h3 class="xc-category-one__title"><a href="#">Kitchen</a></h3>
+                    </div>
+                    <div class="xc-category-one__item">
+                        <div class="xc-category-one__img">
+                            <img src="assets/img/cats/pd-cat-4.png" alt="cat">
+                        </div>
+                        <h3 class="xc-category-one__title"><a href="#">Robot Cleaner</a></h3>
+                    </div>
+                    <div class="xc-category-one__item">
+                        <div class="xc-category-one__img">
+                            <img src="assets/img/cats/pd-cat-5.png" alt="cat">
+                        </div>
+                        <h3 class="xc-category-one__title"><a href="#">Mobile</a></h3>
+                    </div>
+                    <div class="xc-category-one__item">
+                        <div class="xc-category-one__img">
+                            <img src="assets/img/cats/pd-cat-6.png" alt="cat">
+                        </div>
+                        <h3 class="xc-category-one__title"><a href="#">Office</a></h3>
+                    </div>
+                    <div class="xc-category-one__item">
+                        <div class="xc-category-one__img">
+                            <img src="assets/img/cats/pd-cat-7.png" alt="cat">
+                        </div>
+                        <h3 class="xc-category-one__title"><a href="#">Cameras</a></h3>
+                    </div>
+                    <div class="xc-category-one__item">
+                        <div class="xc-category-one__img">
+                            <img src="assets/img/cats/pd-cat-8.png" alt="cat">
+                        </div>
+                        <h3 class="xc-category-one__title"><a href="#">Computer</a></h3>
+                    </div>
+                    <div class="xc-category-one__item">
+                        <div class="xc-category-one__img">
+                            <img src="assets/img/cats/pd-cat-9.png" alt="cat">
+                        </div>
+                        <h3 class="xc-category-one__title"><a href="#">Television</a></h3>
+                    </div>
+                    <div class="xc-category-one__item">
+                        <div class="xc-category-one__img">
+                            <img src="assets/img/cats/pd-cat-10.png" alt="cat">
+                        </div>
+                        <h3 class="xc-category-one__title"><a href="#">Audios</a></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- product cat one end -->
+
+        <!-- product six start -->
+        <div class="xc-product-six pb-80">
+            <div class="container">
+                <div class="xc-sec-heading xc-sec-heading-two xc-has-btn">
+                    <div>
+                        <span class="xc-sec-heading__subtitle has-before">This Month</span>
+                        <h3 class="xc-sec-heading__title">Featured Product</h3>
+                    </div>
+                    <div class="xc-sec-heading__btn">
+                        <a href="shop.html" class="xc-sec-heading-btn">show all</a>
+                    </div>
+                </div>
+                <div class="row gutter-y-20">
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="xc-product-six__item">
+                            <span class="xc-product-six__offer">20%</span>
+                            <div class="xc-product-six__img">
+                                <img src="assets/img/products/product-7-1.png" alt="">
+                            </div>
+                            <h5 class="xc-product-six__price"><del>$460</del><span>$450</span></h5>
+                            <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter Exhaust Fan,
+                                    High-speed 820...</a></h3>
+                            <div class="xc-product-six__ratting">
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                (25)
+                            </div>
+                            <div class="xc-product-six__btns">
+                                <a class="swiftcart-btn-black" href="cart.html">Add to Cart</a>
+                                <a class="xc-wish-btn" href="#"><i class="icon-love"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="xc-product-six__item">
+                            <div class="xc-product-six__img">
+                                <img src="assets/img/products/product-7-2.png" alt="">
+                            </div>
+                            <h5 class="xc-product-six__price"><span>$350</span></h5>
+                            <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter Exhaust Fan,
+                                    High-speed 820...</a></h3>
+                            <div class="xc-product-six__ratting">
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                (25)
+                            </div>
+                            <div class="xc-product-six__btns">
+                                <a class="swiftcart-btn-black" href="cart.html">Add to Cart</a>
+                                <a class="xc-wish-btn" href="#"><i class="icon-love"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="xc-product-six__item">
+                            <span class="xc-product-six__offer">20%</span>
+                            <div class="xc-product-six__img">
+                                <img src="assets/img/products/product-7-3.png" alt="">
+                            </div>
+                            <h5 class="xc-product-six__price"><del>$540</del><span>$520</span></h5>
+                            <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter Exhaust Fan,
+                                    High-speed 820...</a></h3>
+                            <div class="xc-product-six__ratting">
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                (25)
+                            </div>
+                            <div class="xc-product-six__btns">
+                                <a class="swiftcart-btn-black" href="cart.html">Add to Cart</a>
+                                <a class="xc-wish-btn" href="#"><i class="icon-love"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="xc-product-six__item">
+                            <span class="xc-product-six__offer">20%</span>
+                            <div class="xc-product-six__img">
+                                <img src="assets/img/products/product-7-4.png" alt="">
+                            </div>
+                            <h5 class="xc-product-six__price"><del>$440</del><span>$410</span></h5>
+                            <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter Exhaust Fan,
+                                    High-speed 820...</a></h3>
+                            <div class="xc-product-six__ratting">
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                (25)
+                            </div>
+                            <div class="xc-product-six__btns">
+                                <a class="swiftcart-btn-black" href="cart.html">Add to Cart</a>
+                                <a class="xc-wish-btn" href="#"><i class="icon-love"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- product six end -->
+
+        <!-- banner three start  -->
+        <div class="xc-banner-three pb-80">
+            <div class="container">
+                <div class="row gutter-y-20">
+                    <div class="col-xl-6">
+                        <div class="xc-banner-three__item item-2" data-bg-color="#191C1F">
+                            <div class="xc-banner-three__left">
+                                <div class="xc-banner-three__content">
+                                    <span class="xc-banner-three__subtitle">INTRODUCING NEW</span>
+                                    <h3 class="xc-banner-three__title">Xiaomi Mi 11 Ultra <br> 12GB+256GB</h3>
+                                    <p class="xc-banner-three__info">*Data provided by internal <br> laboratories. Industry
+                                        measurement.
+                                    </p>
+                                    <div class="xc-banner-three__btn">
+                                        <a class="swiftcart-btn" href="shop.html">Shop now <i class="icon-next"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="xc-banner-three__right">
+                                <div class="xc-banner-three__img">
+                                    <img src="assets/img/banner/banner-3-2.png" alt="mobile">
+                                    <span class="xc-banner-three__price">$590</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="xc-banner-three__item item-1" data-bg-color="#EBEEEF">
+                            <div class="xc-banner-three__left">
+                                <div class="xc-banner-three__content">
+                                    <span class="xc-banner-three__subtitle">INTRODUCING</span>
+                                    <h3 class="xc-banner-three__title">New Apple <br> Homepod Mini</h3>
+                                    <p class="xc-banner-three__info">Jam-packed with innovation, <br> HomePod mini delivers
+                                        unexpectedly.</p>
+                                    <div class="xc-banner-three__btn">
+                                        <a class="swiftcart-btn" href="shop.html">Shop now <i class="icon-next"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="xc-banner-three__right">
+                                <div class="xc-banner-three__img xc-banner-three__img-center">
+                                    <img src="assets/img/banner/banner-3-1.png" alt="gmini">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- bammer three end -->
+
+        <!-- product six start -->
+        <div class="xc-product-six pb-80">
+            <div class="container">
+                <div class="xc-best-deal__header-wraper">
+                    <div class="xc-sec-heading xc-sec-heading-two">
+                        <span class="xc-sec-heading__subtitle has-before">Best Sale</span>
+                        <h3 class="xc-sec-heading__title">Best Deals</h3>
+                    </div>
+                    <div class="xc-best-deal__countdown" data-countdown="" data-date="Nov 31 2025 20:20:22">
+                        <div class="xc-best-deal__countdown-inner">
+                            <p>Deals ends in</p>
+                            <ul>
+                                <li><span data-days="">183</span> Days :</li>
+                                <li><span data-hours="">21</span> Hrs :</li>
+                                <li><span data-minutes="">46</span> Min :</li>
+                                <li><span data-seconds="">21</span> Sec</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row gutter-y-20">
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="xc-product-six__item">
+                            <span class="xc-product-six__offer">20%</span>
+                            <div class="xc-product-six__img">
+                                <img src="assets/img/products/product-7-1.png" alt="">
+                            </div>
+                            <h5 class="xc-product-six__price"><del>$460</del><span>$450</span></h5>
+                            <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter Exhaust Fan,
+                                    High-speed 820...</a></h3>
+                            <div class="xc-product-six__ratting">
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                (25)
+                            </div>
+                            <div class="xc-product-six__btns">
+                                <a class="swiftcart-btn-black" href="cart.html">Add to Cart</a>
+                                <a class="xc-wish-btn" href="#"><i class="icon-love"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="xc-product-six__item">
+                            <div class="xc-product-six__img">
+                                <img src="assets/img/products/product-7-2.png" alt="">
+                            </div>
+                            <h5 class="xc-product-six__price"><span>$350</span></h5>
+                            <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter Exhaust Fan,
+                                    High-speed 820...</a></h3>
+                            <div class="xc-product-six__ratting">
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                (25)
+                            </div>
+                            <div class="xc-product-six__btns">
+                                <a class="swiftcart-btn-black" href="cart.html">Add to Cart</a>
+                                <a class="xc-wish-btn" href="#"><i class="icon-love"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="xc-product-six__item">
+                            <span class="xc-product-six__offer">20%</span>
+                            <div class="xc-product-six__img">
+                                <img src="assets/img/products/product-7-3.png" alt="">
+                            </div>
+                            <h5 class="xc-product-six__price"><del>$540</del><span>$520</span></h5>
+                            <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter Exhaust Fan,
+                                    High-speed 820...</a></h3>
+                            <div class="xc-product-six__ratting">
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                (25)
+                            </div>
+                            <div class="xc-product-six__btns">
+                                <a class="swiftcart-btn-black" href="cart.html">Add to Cart</a>
+                                <a class="xc-wish-btn" href="#"><i class="icon-love"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="xc-product-six__item">
+                            <span class="xc-product-six__offer">20%</span>
+                            <div class="xc-product-six__img">
+                                <img src="assets/img/products/product-7-4.png" alt="">
+                            </div>
+                            <h5 class="xc-product-six__price"><del>$440</del><span>$410</span></h5>
+                            <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter Exhaust Fan,
+                                    High-speed 820...</a></h3>
+                            <div class="xc-product-six__ratting">
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                <i class="icon-star"></i>
+                                (25)
+                            </div>
+                            <div class="xc-product-six__btns">
+                                <a class="swiftcart-btn-black" href="cart.html">Add to Cart</a>
+                                <a class="xc-wish-btn" href="#"><i class="icon-love"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- product six end -->
+
+        <!--  best deal start -->
+        <div class="xc-best-deal pb-80">
+            <div class="container">
+                <div class="xc-sec-heading xc-sec-heading-two xc-has-btn">
+                    <div>
+                        <span class="xc-sec-heading__subtitle has-before">Top Sale</span>
+                        <h3 class="xc-sec-heading__title">Top Sale Product</h3>
+                    </div>
+                    <div class="xc-sec-heading__btn">
+                        <a href="shop.html" class="xc-sec-heading-btn">show all</a>
+                    </div>
+                </div>
+                <div class="xc-best-deal__filter-box">
+                    <div class="row gutter-y-30">
+                        <div class="col-lg-3">
+                            <div class="xc-best-deal__banner xc-best-deal__banner_modify bg-black">
+                                <p class="xc-best-deal__banner-title">CC Camera & ACCESSORIES <span>40% Discount</span>For all
+                                    electronics products</p>
+                                <img src="assets/img/resourse/best-deal-banner-1-1.png" alt="best deal">
+                                <a href="shop.html" class="swiftcart-btn">Shop now <i class="icon-next"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-9">
+                            <div class="row g-3">
+                                <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div class="xc-product-six__item xc-product-six-modify__item">
+                                        <span class="xc-product-six__offer">20%</span>
+                                        <div class="xc-product-six__img">
+                                            <img src="assets/img/products/product-8-1.png" alt="">
+                                        </div>
+                                        <h5 class="xc-product-six__price"><del>$460</del><span>$450</span></h5>
+                                        <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter
+                                                Exhaust Fan,
+                                                High-speed 820...</a></h3>
+                                        <div class="xc-product-six__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (25)
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div class="xc-product-six__item xc-product-six-modify__item">
+                                        <div class="xc-product-six__img">
+                                            <img src="assets/img/products/product-8-2.png" alt="">
+                                        </div>
+                                        <h5 class="xc-product-six__price"><span>$350</span></h5>
+                                        <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter
+                                                Exhaust Fan,
+                                                High-speed 820...</a></h3>
+                                        <div class="xc-product-six__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (25)
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div class="xc-product-six__item xc-product-six-modify__item">
+                                        <span class="xc-product-six__offer">20%</span>
+                                        <div class="xc-product-six__img">
+                                            <img src="assets/img/products/product-8-3.png" alt="">
+                                        </div>
+                                        <h5 class="xc-product-six__price"><del>$540</del><span>$520</span></h5>
+                                        <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter
+                                                Exhaust Fan,
+                                                High-speed 820...</a></h3>
+                                        <div class="xc-product-six__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (25)
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div class="xc-product-six__item xc-product-six-modify__item">
+                                        <span class="xc-product-six__offer">20%</span>
+                                        <div class="xc-product-six__img">
+                                            <img src="assets/img/products/product-8-4.png" alt="">
+                                        </div>
+                                        <h5 class="xc-product-six__price"><del>$440</del><span>$410</span></h5>
+                                        <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter
+                                                Exhaust Fan,
+                                                High-speed 820...</a></h3>
+                                        <div class="xc-product-six__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (25)
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div class="xc-product-six__item xc-product-six-modify__item">
+                                        <span class="xc-product-six__offer">20%</span>
+                                        <div class="xc-product-six__img">
+                                            <img src="assets/img/products/product-8-5.png" alt="">
+                                        </div>
+                                        <h5 class="xc-product-six__price"><del>$460</del><span>$450</span></h5>
+                                        <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter
+                                                Exhaust Fan,
+                                                High-speed 820...</a></h3>
+                                        <div class="xc-product-six__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (25)
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div class="xc-product-six__item xc-product-six-modify__item">
+                                        <div class="xc-product-six__img">
+                                            <img src="assets/img/products/product-8-6.png" alt="">
+                                        </div>
+                                        <h5 class="xc-product-six__price"><span>$350</span></h5>
+                                        <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter
+                                                Exhaust Fan,
+                                                High-speed 820...</a></h3>
+                                        <div class="xc-product-six__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (25)
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div class="xc-product-six__item xc-product-six-modify__item">
+                                        <span class="xc-product-six__offer">20%</span>
+                                        <div class="xc-product-six__img">
+                                            <img src="assets/img/products/product-8-7.png" alt="">
+                                        </div>
+                                        <h5 class="xc-product-six__price"><del>$540</del><span>$520</span></h5>
+                                        <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter
+                                                Exhaust Fan,
+                                                High-speed 820...</a></h3>
+                                        <div class="xc-product-six__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (25)
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div class="xc-product-six__item xc-product-six-modify__item">
+                                        <span class="xc-product-six__offer">20%</span>
+                                        <div class="xc-product-six__img">
+                                            <img src="assets/img/products/product-8-8.png" alt="">
+                                        </div>
+                                        <h5 class="xc-product-six__price"><del>$440</del><span>$410</span></h5>
+                                        <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter
+                                                Exhaust Fan,
+                                                High-speed 820...</a></h3>
+                                        <div class="xc-product-six__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (25)
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  best deal end -->
+
+        <!-- ads start -->
+        <div class="xc-ads-one">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="xc-ads-one__img w-img">
+                            <a href="#"><img src="assets/img/ads/ads-2.png" alt="ads"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ads end -->
+
+        <!--  best deal start -->
+        <div class="xc-best-deal pt-80 pb-80">
+            <div class="container">
+                <div class="xc-sec-heading xc-sec-heading-two">
+                    <span class="xc-sec-heading__subtitle has-before">Best Sale</span>
+                    <h3 class="xc-sec-heading__title">Best Deals</h3>
+                </div>
+                <div class="xc-best-deal__filter-box tabs-box">
+                    <div class="xc-best-deal__filter-box-wrap">
+                        <ul class="xc-best-deal__filter-btn tab-buttons">
+                            <li data-tab="#all" class="tab-btn active-btn"><span>all products</span>
+                            </li>
+                            <li data-tab="#mobile" class="tab-btn"><span>Mobile</span>
+                            </li>
+                            <li data-tab="#headphone" class="tab-btn"><span>Headphone</span></li>
+                            <li data-tab="#smarttv" class="tab-btn"><span>Smart TV</span></li>
+                        </ul>
+                        <div>
+                            <a href="shop.html" class="xc-best-deal__btn">show all</a>
+                        </div>
+                    </div>
+                    <div class="xc-product-man-woman__wrapper tabs-content">
+                        <div class="tab active-tab" id="all">
+                            <div class="row gutter-y-20">
+                                <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div class="xc-product-six__item">
+                                        <span class="xc-product-six__offer">20%</span>
+                                        <div class="xc-product-six__img">
+                                            <img src="assets/img/products/product-7-1.png" alt="">
+                                        </div>
+                                        <h5 class="xc-product-six__price"><del>$460</del><span>$450</span></h5>
+                                        <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter
+                                                Exhaust Fan,
+                                                High-speed 820...</a></h3>
+                                        <div class="xc-product-six__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (25)
+                                        </div>
+                                        <div class="xc-product-six__btns">
+                                            <a class="swiftcart-btn-black" href="cart.html">Add to Cart</a>
+                                            <a class="xc-wish-btn" href="#"><i class="icon-love"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div class="xc-product-six__item">
+                                        <div class="xc-product-six__img">
+                                            <img src="assets/img/products/product-7-2.png" alt="">
+                                        </div>
+                                        <h5 class="xc-product-six__price"><span>$350</span></h5>
+                                        <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter
+                                                Exhaust Fan,
+                                                High-speed 820...</a></h3>
+                                        <div class="xc-product-six__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (25)
+                                        </div>
+                                        <div class="xc-product-six__btns">
+                                            <a class="swiftcart-btn-black" href="cart.html">Add to Cart</a>
+                                            <a class="xc-wish-btn" href="#"><i class="icon-love"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div class="xc-product-six__item">
+                                        <span class="xc-product-six__offer">20%</span>
+                                        <div class="xc-product-six__img">
+                                            <img src="assets/img/products/product-7-3.png" alt="">
+                                        </div>
+                                        <h5 class="xc-product-six__price"><del>$540</del><span>$520</span></h5>
+                                        <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter
+                                                Exhaust Fan,
+                                                High-speed 820...</a></h3>
+                                        <div class="xc-product-six__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (25)
+                                        </div>
+                                        <div class="xc-product-six__btns">
+                                            <a class="swiftcart-btn-black" href="cart.html">Add to Cart</a>
+                                            <a class="xc-wish-btn" href="#"><i class="icon-love"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div class="xc-product-six__item">
+                                        <span class="xc-product-six__offer">20%</span>
+                                        <div class="xc-product-six__img">
+                                            <img src="assets/img/products/product-7-4.png" alt="">
+                                        </div>
+                                        <h5 class="xc-product-six__price"><del>$440</del><span>$410</span></h5>
+                                        <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter
+                                                Exhaust Fan,
+                                                High-speed 820...</a></h3>
+                                        <div class="xc-product-six__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (25)
+                                        </div>
+                                        <div class="xc-product-six__btns">
+                                            <a class="swiftcart-btn-black" href="cart.html">Add to Cart</a>
+                                            <a class="xc-wish-btn" href="#"><i class="icon-love"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div class="xc-product-six__item">
+                                        <div class="xc-product-six__img">
+                                            <img src="assets/img/products/product-7-5.png" alt="">
+                                        </div>
+                                        <h5 class="xc-product-six__price"><del>$440</del><span>$410</span></h5>
+                                        <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter
+                                                Exhaust Fan,
+                                                High-speed 820...</a></h3>
+                                        <div class="xc-product-six__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (25)
+                                        </div>
+                                        <div class="xc-product-six__btns">
+                                            <a class="swiftcart-btn-black" href="cart.html">Add to Cart</a>
+                                            <a class="xc-wish-btn" href="#"><i class="icon-love"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div class="xc-product-six__item">
+                                        <span class="xc-product-six__offer">20%</span>
+                                        <div class="xc-product-six__img">
+                                            <img src="assets/img/products/product-7-6.png" alt="">
+                                        </div>
+                                        <h5 class="xc-product-six__price"><del>$440</del><span>$410</span></h5>
+                                        <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter
+                                                Exhaust Fan,
+                                                High-speed 820...</a></h3>
+                                        <div class="xc-product-six__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (25)
+                                        </div>
+                                        <div class="xc-product-six__btns">
+                                            <a class="swiftcart-btn-black" href="cart.html">Add to Cart</a>
+                                            <a class="xc-wish-btn" href="#"><i class="icon-love"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div class="xc-product-six__item">
+
+                                        <div class="xc-product-six__img">
+                                            <img src="assets/img/products/product-7-7.png" alt="">
+                                        </div>
+                                        <h5 class="xc-product-six__price"><del>$440</del><span>$410</span></h5>
+                                        <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter
+                                                Exhaust Fan,
+                                                High-speed 820...</a></h3>
+                                        <div class="xc-product-six__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (25)
+                                        </div>
+                                        <div class="xc-product-six__btns">
+                                            <a class="swiftcart-btn-black" href="cart.html">Add to Cart</a>
+                                            <a class="xc-wish-btn" href="#"><i class="icon-love"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div class="xc-product-six__item">
+                                        <span class="xc-product-six__offer">20%</span>
+                                        <div class="xc-product-six__img">
+                                            <img src="assets/img/products/product-7-8.png" alt="">
+                                        </div>
+                                        <h5 class="xc-product-six__price"><del>$440</del><span>$410</span></h5>
+                                        <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter
+                                                Exhaust Fan,
+                                                High-speed 820...</a></h3>
+                                        <div class="xc-product-six__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (25)
+                                        </div>
+                                        <div class="xc-product-six__btns">
+                                            <a class="swiftcart-btn-black" href="cart.html">Add to Cart</a>
+                                            <a class="xc-wish-btn" href="#"><i class="icon-love"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab" id="mobile">
+                            <div class="row gutter-y-20">
+                                <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div class="xc-product-six__item">
+                                        <span class="xc-product-six__offer">20%</span>
+                                        <div class="xc-product-six__img">
+                                            <img src="assets/img/products/product-7-1.png" alt="">
+                                        </div>
+                                        <h5 class="xc-product-six__price"><del>$460</del><span>$450</span></h5>
+                                        <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter
+                                                Exhaust Fan,
+                                                High-speed 820...</a></h3>
+                                        <div class="xc-product-six__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (25)
+                                        </div>
+                                        <div class="xc-product-six__btns">
+                                            <a class="swiftcart-btn-black" href="cart.html">Add to Cart</a>
+                                            <a class="xc-wish-btn" href="#"><i class="icon-love"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div class="xc-product-six__item">
+                                        <div class="xc-product-six__img">
+                                            <img src="assets/img/products/product-7-2.png" alt="">
+                                        </div>
+                                        <h5 class="xc-product-six__price"><span>$350</span></h5>
+                                        <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter
+                                                Exhaust Fan,
+                                                High-speed 820...</a></h3>
+                                        <div class="xc-product-six__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (25)
+                                        </div>
+                                        <div class="xc-product-six__btns">
+                                            <a class="swiftcart-btn-black" href="cart.html">Add to Cart</a>
+                                            <a class="xc-wish-btn" href="#"><i class="icon-love"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div class="xc-product-six__item">
+                                        <span class="xc-product-six__offer">20%</span>
+                                        <div class="xc-product-six__img">
+                                            <img src="assets/img/products/product-7-3.png" alt="">
+                                        </div>
+                                        <h5 class="xc-product-six__price"><del>$540</del><span>$520</span></h5>
+                                        <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter
+                                                Exhaust Fan,
+                                                High-speed 820...</a></h3>
+                                        <div class="xc-product-six__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (25)
+                                        </div>
+                                        <div class="xc-product-six__btns">
+                                            <a class="swiftcart-btn-black" href="cart.html">Add to Cart</a>
+                                            <a class="xc-wish-btn" href="#"><i class="icon-love"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div class="xc-product-six__item">
+                                        <span class="xc-product-six__offer">20%</span>
+                                        <div class="xc-product-six__img">
+                                            <img src="assets/img/products/product-7-4.png" alt="">
+                                        </div>
+                                        <h5 class="xc-product-six__price"><del>$440</del><span>$410</span></h5>
+                                        <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter
+                                                Exhaust Fan,
+                                                High-speed 820...</a></h3>
+                                        <div class="xc-product-six__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (25)
+                                        </div>
+                                        <div class="xc-product-six__btns">
+                                            <a class="swiftcart-btn-black" href="cart.html">Add to Cart</a>
+                                            <a class="xc-wish-btn" href="#"><i class="icon-love"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div class="xc-product-six__item">
+                                        <div class="xc-product-six__img">
+                                            <img src="assets/img/products/product-7-5.png" alt="">
+                                        </div>
+                                        <h5 class="xc-product-six__price"><del>$440</del><span>$410</span></h5>
+                                        <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter
+                                                Exhaust Fan,
+                                                High-speed 820...</a></h3>
+                                        <div class="xc-product-six__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (25)
+                                        </div>
+                                        <div class="xc-product-six__btns">
+                                            <a class="swiftcart-btn-black" href="cart.html">Add to Cart</a>
+                                            <a class="xc-wish-btn" href="#"><i class="icon-love"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div class="xc-product-six__item">
+                                        <span class="xc-product-six__offer">20%</span>
+                                        <div class="xc-product-six__img">
+                                            <img src="assets/img/products/product-7-6.png" alt="">
+                                        </div>
+                                        <h5 class="xc-product-six__price"><del>$440</del><span>$410</span></h5>
+                                        <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter
+                                                Exhaust Fan,
+                                                High-speed 820...</a></h3>
+                                        <div class="xc-product-six__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (25)
+                                        </div>
+                                        <div class="xc-product-six__btns">
+                                            <a class="swiftcart-btn-black" href="cart.html">Add to Cart</a>
+                                            <a class="xc-wish-btn" href="#"><i class="icon-love"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div class="xc-product-six__item">
+
+                                        <div class="xc-product-six__img">
+                                            <img src="assets/img/products/product-7-7.png" alt="">
+                                        </div>
+                                        <h5 class="xc-product-six__price"><del>$440</del><span>$410</span></h5>
+                                        <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter
+                                                Exhaust Fan,
+                                                High-speed 820...</a></h3>
+                                        <div class="xc-product-six__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (25)
+                                        </div>
+                                        <div class="xc-product-six__btns">
+                                            <a class="swiftcart-btn-black" href="cart.html">Add to Cart</a>
+                                            <a class="xc-wish-btn" href="#"><i class="icon-love"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div class="xc-product-six__item">
+                                        <span class="xc-product-six__offer">20%</span>
+                                        <div class="xc-product-six__img">
+                                            <img src="assets/img/products/product-7-8.png" alt="">
+                                        </div>
+                                        <h5 class="xc-product-six__price"><del>$440</del><span>$410</span></h5>
+                                        <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter
+                                                Exhaust Fan,
+                                                High-speed 820...</a></h3>
+                                        <div class="xc-product-six__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (25)
+                                        </div>
+                                        <div class="xc-product-six__btns">
+                                            <a class="swiftcart-btn-black" href="cart.html">Add to Cart</a>
+                                            <a class="xc-wish-btn" href="#"><i class="icon-love"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab" id="headphone">
+                            <div class="row gutter-y-20">
+                                <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div class="xc-product-six__item">
+                                        <span class="xc-product-six__offer">20%</span>
+                                        <div class="xc-product-six__img">
+                                            <img src="assets/img/products/product-7-1.png" alt="">
+                                        </div>
+                                        <h5 class="xc-product-six__price"><del>$460</del><span>$450</span></h5>
+                                        <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter
+                                                Exhaust Fan,
+                                                High-speed 820...</a></h3>
+                                        <div class="xc-product-six__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (25)
+                                        </div>
+                                        <div class="xc-product-six__btns">
+                                            <a class="swiftcart-btn-black" href="cart.html">Add to Cart</a>
+                                            <a class="xc-wish-btn" href="#"><i class="icon-love"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div class="xc-product-six__item">
+                                        <div class="xc-product-six__img">
+                                            <img src="assets/img/products/product-7-2.png" alt="">
+                                        </div>
+                                        <h5 class="xc-product-six__price"><span>$350</span></h5>
+                                        <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter
+                                                Exhaust Fan,
+                                                High-speed 820...</a></h3>
+                                        <div class="xc-product-six__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (25)
+                                        </div>
+                                        <div class="xc-product-six__btns">
+                                            <a class="swiftcart-btn-black" href="cart.html">Add to Cart</a>
+                                            <a class="xc-wish-btn" href="#"><i class="icon-love"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div class="xc-product-six__item">
+                                        <span class="xc-product-six__offer">20%</span>
+                                        <div class="xc-product-six__img">
+                                            <img src="assets/img/products/product-7-3.png" alt="">
+                                        </div>
+                                        <h5 class="xc-product-six__price"><del>$540</del><span>$520</span></h5>
+                                        <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter
+                                                Exhaust Fan,
+                                                High-speed 820...</a></h3>
+                                        <div class="xc-product-six__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (25)
+                                        </div>
+                                        <div class="xc-product-six__btns">
+                                            <a class="swiftcart-btn-black" href="cart.html">Add to Cart</a>
+                                            <a class="xc-wish-btn" href="#"><i class="icon-love"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div class="xc-product-six__item">
+                                        <span class="xc-product-six__offer">20%</span>
+                                        <div class="xc-product-six__img">
+                                            <img src="assets/img/products/product-7-4.png" alt="">
+                                        </div>
+                                        <h5 class="xc-product-six__price"><del>$440</del><span>$410</span></h5>
+                                        <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter
+                                                Exhaust Fan,
+                                                High-speed 820...</a></h3>
+                                        <div class="xc-product-six__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (25)
+                                        </div>
+                                        <div class="xc-product-six__btns">
+                                            <a class="swiftcart-btn-black" href="cart.html">Add to Cart</a>
+                                            <a class="xc-wish-btn" href="#"><i class="icon-love"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div class="xc-product-six__item">
+                                        <div class="xc-product-six__img">
+                                            <img src="assets/img/products/product-7-5.png" alt="">
+                                        </div>
+                                        <h5 class="xc-product-six__price"><del>$440</del><span>$410</span></h5>
+                                        <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter
+                                                Exhaust Fan,
+                                                High-speed 820...</a></h3>
+                                        <div class="xc-product-six__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (25)
+                                        </div>
+                                        <div class="xc-product-six__btns">
+                                            <a class="swiftcart-btn-black" href="cart.html">Add to Cart</a>
+                                            <a class="xc-wish-btn" href="#"><i class="icon-love"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div class="xc-product-six__item">
+                                        <span class="xc-product-six__offer">20%</span>
+                                        <div class="xc-product-six__img">
+                                            <img src="assets/img/products/product-7-6.png" alt="">
+                                        </div>
+                                        <h5 class="xc-product-six__price"><del>$440</del><span>$410</span></h5>
+                                        <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter
+                                                Exhaust Fan,
+                                                High-speed 820...</a></h3>
+                                        <div class="xc-product-six__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (25)
+                                        </div>
+                                        <div class="xc-product-six__btns">
+                                            <a class="swiftcart-btn-black" href="cart.html">Add to Cart</a>
+                                            <a class="xc-wish-btn" href="#"><i class="icon-love"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div class="xc-product-six__item">
+
+                                        <div class="xc-product-six__img">
+                                            <img src="assets/img/products/product-7-7.png" alt="">
+                                        </div>
+                                        <h5 class="xc-product-six__price"><del>$440</del><span>$410</span></h5>
+                                        <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter
+                                                Exhaust Fan,
+                                                High-speed 820...</a></h3>
+                                        <div class="xc-product-six__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (25)
+                                        </div>
+                                        <div class="xc-product-six__btns">
+                                            <a class="swiftcart-btn-black" href="cart.html">Add to Cart</a>
+                                            <a class="xc-wish-btn" href="#"><i class="icon-love"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div class="xc-product-six__item">
+                                        <span class="xc-product-six__offer">20%</span>
+                                        <div class="xc-product-six__img">
+                                            <img src="assets/img/products/product-7-8.png" alt="">
+                                        </div>
+                                        <h5 class="xc-product-six__price"><del>$440</del><span>$410</span></h5>
+                                        <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter
+                                                Exhaust Fan,
+                                                High-speed 820...</a></h3>
+                                        <div class="xc-product-six__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (25)
+                                        </div>
+                                        <div class="xc-product-six__btns">
+                                            <a class="swiftcart-btn-black" href="cart.html">Add to Cart</a>
+                                            <a class="xc-wish-btn" href="#"><i class="icon-love"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab" id="smarttv">
+                            <div class="row gutter-y-20">
+                                <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div class="xc-product-six__item">
+                                        <span class="xc-product-six__offer">20%</span>
+                                        <div class="xc-product-six__img">
+                                            <img src="assets/img/products/product-7-1.png" alt="">
+                                        </div>
+                                        <h5 class="xc-product-six__price"><del>$460</del><span>$450</span></h5>
+                                        <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter
+                                                Exhaust Fan,
+                                                High-speed 820...</a></h3>
+                                        <div class="xc-product-six__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (25)
+                                        </div>
+                                        <div class="xc-product-six__btns">
+                                            <a class="swiftcart-btn-black" href="cart.html">Add to Cart</a>
+                                            <a class="xc-wish-btn" href="#"><i class="icon-love"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div class="xc-product-six__item">
+                                        <div class="xc-product-six__img">
+                                            <img src="assets/img/products/product-7-2.png" alt="">
+                                        </div>
+                                        <h5 class="xc-product-six__price"><span>$350</span></h5>
+                                        <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter
+                                                Exhaust Fan,
+                                                High-speed 820...</a></h3>
+                                        <div class="xc-product-six__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (25)
+                                        </div>
+                                        <div class="xc-product-six__btns">
+                                            <a class="swiftcart-btn-black" href="cart.html">Add to Cart</a>
+                                            <a class="xc-wish-btn" href="#"><i class="icon-love"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div class="xc-product-six__item">
+                                        <span class="xc-product-six__offer">20%</span>
+                                        <div class="xc-product-six__img">
+                                            <img src="assets/img/products/product-7-3.png" alt="">
+                                        </div>
+                                        <h5 class="xc-product-six__price"><del>$540</del><span>$520</span></h5>
+                                        <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter
+                                                Exhaust Fan,
+                                                High-speed 820...</a></h3>
+                                        <div class="xc-product-six__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (25)
+                                        </div>
+                                        <div class="xc-product-six__btns">
+                                            <a class="swiftcart-btn-black" href="cart.html">Add to Cart</a>
+                                            <a class="xc-wish-btn" href="#"><i class="icon-love"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div class="xc-product-six__item">
+                                        <span class="xc-product-six__offer">20%</span>
+                                        <div class="xc-product-six__img">
+                                            <img src="assets/img/products/product-7-4.png" alt="">
+                                        </div>
+                                        <h5 class="xc-product-six__price"><del>$440</del><span>$410</span></h5>
+                                        <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter
+                                                Exhaust Fan,
+                                                High-speed 820...</a></h3>
+                                        <div class="xc-product-six__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (25)
+                                        </div>
+                                        <div class="xc-product-six__btns">
+                                            <a class="swiftcart-btn-black" href="cart.html">Add to Cart</a>
+                                            <a class="xc-wish-btn" href="#"><i class="icon-love"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div class="xc-product-six__item">
+                                        <div class="xc-product-six__img">
+                                            <img src="assets/img/products/product-7-5.png" alt="">
+                                        </div>
+                                        <h5 class="xc-product-six__price"><del>$440</del><span>$410</span></h5>
+                                        <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter
+                                                Exhaust Fan,
+                                                High-speed 820...</a></h3>
+                                        <div class="xc-product-six__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (25)
+                                        </div>
+                                        <div class="xc-product-six__btns">
+                                            <a class="swiftcart-btn-black" href="cart.html">Add to Cart</a>
+                                            <a class="xc-wish-btn" href="#"><i class="icon-love"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div class="xc-product-six__item">
+                                        <span class="xc-product-six__offer">20%</span>
+                                        <div class="xc-product-six__img">
+                                            <img src="assets/img/products/product-7-6.png" alt="">
+                                        </div>
+                                        <h5 class="xc-product-six__price"><del>$440</del><span>$410</span></h5>
+                                        <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter
+                                                Exhaust Fan,
+                                                High-speed 820...</a></h3>
+                                        <div class="xc-product-six__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (25)
+                                        </div>
+                                        <div class="xc-product-six__btns">
+                                            <a class="swiftcart-btn-black" href="cart.html">Add to Cart</a>
+                                            <a class="xc-wish-btn" href="#"><i class="icon-love"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div class="xc-product-six__item">
+
+                                        <div class="xc-product-six__img">
+                                            <img src="assets/img/products/product-7-7.png" alt="">
+                                        </div>
+                                        <h5 class="xc-product-six__price"><del>$440</del><span>$410</span></h5>
+                                        <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter
+                                                Exhaust Fan,
+                                                High-speed 820...</a></h3>
+                                        <div class="xc-product-six__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (25)
+                                        </div>
+                                        <div class="xc-product-six__btns">
+                                            <a class="swiftcart-btn-black" href="cart.html">Add to Cart</a>
+                                            <a class="xc-wish-btn" href="#"><i class="icon-love"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 col-xl-3">
+                                    <div class="xc-product-six__item">
+                                        <span class="xc-product-six__offer">20%</span>
+                                        <div class="xc-product-six__img">
+                                            <img src="assets/img/products/product-7-8.png" alt="">
+                                        </div>
+                                        <h5 class="xc-product-six__price"><del>$440</del><span>$410</span></h5>
+                                        <h3 class="xc-product-six__title"><a href="product-details.html">VEVOR 10'' Shutter
+                                                Exhaust Fan,
+                                                High-speed 820...</a></h3>
+                                        <div class="xc-product-six__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (25)
+                                        </div>
+                                        <div class="xc-product-six__btns">
+                                            <a class="swiftcart-btn-black" href="cart.html">Add to Cart</a>
+                                            <a class="xc-wish-btn" href="#"><i class="icon-love"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  best deal end -->
+
+        <!-- banner six start  -->
+        <div class="xc-banner-six pb-80">
+            <div class="container">
+                <div class="xc-banner-six__wrapper xc-include-bg" data-bg="assets/img/bg/banner-bg.jpg">
+                    <div class="xc-banner-six__content">
+                        <h4 class="xc-banner-six__title">Super discount on more than 100 USD</h4>
+                        <p class="xc-banner-six__info">Have you ever finally just write dummy info</p>
+                    </div>
+                    <div class="xc-banner-six__btn">
+                        <a class="swiftcart-btn" href="shop.html">Shop now</a>
+                    </div>
+                    <div class="xc-banner-six__imgs">
+                        <div class="xc-banner-six__img-1">
+                            <img src="assets/img/banner/banner-6-1.png" alt="banner">
+                        </div>
+                        <div class="xc-banner-six__img-2">
+                            <img src="assets/img/banner/banner-6-2.png" alt="banner">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- banner six end -->
+
+        <!-- category two start  -->
+        <div class="xc-cats-two pb-80">
+            <div class="container">
+                <div class="row g-0">
+                    <div class="col-lg-3">
+                        <div class="xc-cats-two__ads w-img">
+                            <img src="assets/img/resourse/flash-sale-1-2.jpg" alt="ads">
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="xc-cats-two__wrapper">
+                            <div class="row g-0">
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="xc-cats-two__item">
+                                        <h3 class="xc-cats-two__title">
+                                            <a href="#">Smart watches</a>
+                                        </h3>
+                                        <p class="xc-cats-two__info">Form <br> USD 19</p>
+                                        <div class="xc-cats-two__img">
+                                            <img src="assets/img/cats/cat-2-1.png" alt="cats">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="xc-cats-two__item">
+                                        <h3 class="xc-cats-two__title">
+                                            <a href="#">Smart watches</a>
+                                        </h3>
+                                        <p class="xc-cats-two__info">Form <br> USD 19</p>
+                                        <div class="xc-cats-two__img">
+                                            <img src="assets/img/cats/cat-2-2.png" alt="cats">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="xc-cats-two__item">
+                                        <h3 class="xc-cats-two__title">
+                                            <a href="#">Smart watches</a>
+                                        </h3>
+                                        <p class="xc-cats-two__info">Form <br> USD 19</p>
+                                        <div class="xc-cats-two__img">
+                                            <img src="assets/img/cats/cat-2-3.png" alt="cats">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="xc-cats-two__item">
+                                        <h3 class="xc-cats-two__title">
+                                            <a href="#">Smart watches</a>
+                                        </h3>
+                                        <p class="xc-cats-two__info">Form <br> USD 19</p>
+                                        <div class="xc-cats-two__img">
+                                            <img src="assets/img/cats/cat-2-4.png" alt="cats">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="xc-cats-two__item">
+                                        <h3 class="xc-cats-two__title">
+                                            <a href="#">Smart watches</a>
+                                        </h3>
+                                        <p class="xc-cats-two__info">Form <br> USD 19</p>
+                                        <div class="xc-cats-two__img">
+                                            <img src="assets/img/cats/cat-2-5.png" alt="cats">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="xc-cats-two__item">
+                                        <h3 class="xc-cats-two__title">
+                                            <a href="#">Smart watches</a>
+                                        </h3>
+                                        <p class="xc-cats-two__info">Form <br> USD 19</p>
+                                        <div class="xc-cats-two__img">
+                                            <img src="assets/img/cats/cat-2-6.png" alt="cats">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="xc-cats-two__item">
+                                        <h3 class="xc-cats-two__title">
+                                            <a href="#">Smart watches</a>
+                                        </h3>
+                                        <p class="xc-cats-two__info">Form <br> USD 19</p>
+                                        <div class="xc-cats-two__img">
+                                            <img src="assets/img/cats/cat-2-7.png" alt="cats">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="xc-cats-two__item">
+                                        <h3 class="xc-cats-two__title">
+                                            <a href="#">Smart watches</a>
+                                        </h3>
+                                        <p class="xc-cats-two__info">Form <br> USD 19</p>
+                                        <div class="xc-cats-two__img">
+                                            <img src="assets/img/cats/cat-2-8.png" alt="cats">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- category two end -->
+
+        <div class="xc-product-seven pb-80">
+            <div class="container">
+                <div class="xc-sec-heading xc-sec-heading-two">
+                    <span class="xc-sec-heading__subtitle has-before">Recommended</span>
+                    <h3 class="xc-sec-heading__title">Recommended items</h3>
+                </div>
+                <div class="row gutter-y-20">
+                    <div class="col-md-6 col-xl-2">
+                        <div class="xc-product-seven__item">
+                            <div class="xc-product-seven__img">
+                                <img src="assets/img/products/product-7-1.png" alt="product">
+                            </div>
+                            <h4 class="xc-product-seven__price">$10.30</h4>
+                            <h3 class="xc-product-seven__title"><a href="#">T-shirts with multiple colors, for men</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-2">
+                        <div class="xc-product-seven__item">
+                            <div class="xc-product-seven__img">
+                                <img src="assets/img/products/product-7-2.png" alt="product">
+                            </div>
+                            <h4 class="xc-product-seven__price">$10.30</h4>
+                            <h3 class="xc-product-seven__title"><a href="#">T-shirts with multiple colors, for men</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-2">
+                        <div class="xc-product-seven__item">
+                            <div class="xc-product-seven__img">
+                                <img src="assets/img/products/product-7-3.png" alt="product">
+                            </div>
+                            <h4 class="xc-product-seven__price">$10.30</h4>
+                            <h3 class="xc-product-seven__title"><a href="#">T-shirts with multiple colors, for men</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-2">
+                        <div class="xc-product-seven__item">
+                            <div class="xc-product-seven__img">
+                                <img src="assets/img/products/product-7-4.png" alt="product">
+                            </div>
+                            <h4 class="xc-product-seven__price">$10.30</h4>
+                            <h3 class="xc-product-seven__title"><a href="#">T-shirts with multiple colors, for men</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-2">
+                        <div class="xc-product-seven__item">
+                            <div class="xc-product-seven__img">
+                                <img src="assets/img/products/product-7-5.png" alt="product">
+                            </div>
+                            <h4 class="xc-product-seven__price">$10.30</h4>
+                            <h3 class="xc-product-seven__title"><a href="#">T-shirts with multiple colors, for men</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-2">
+                        <div class="xc-product-seven__item">
+                            <div class="xc-product-seven__img">
+                                <img src="assets/img/products/product-7-6.png" alt="product">
+                            </div>
+                            <h4 class="xc-product-seven__price">$10.30</h4>
+                            <h3 class="xc-product-seven__title"><a href="#">T-shirts with multiple colors, for men</a></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- top sale product start -->
+        <div class="xc-product-five pb-80">
+            <div class="container">
+                <div class="row gutter-y-60">
+                    <div class="col-xl-3">
+                        <div class="xc-banner-five xc-banner-five2">
+                            <span class="xc-banner-five__subtitle">Modern Furniture</span>
+                            <h3 class="xc-banner-five__title">30% Discount</h3>
+                            <p class="xc-banner-five__info">For all home products</p>
+                            <div class="xc-banner-five__countdown" data-countdown data-date="Nov 31 2025 20:20:22">
+                                <div class="xc-banner-five__countdown-inner">
+                                    <!-- <p>Deals ends in</p> -->
+                                    <ul>
+                                        <li><span data-days>0</span> d :</li>
+                                        <li><span data-hours>0</span> h :</li>
+                                        <li><span data-minutes>0</span> m :</li>
+                                        <li><span data-seconds>0</span> s</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="xc-banner-five__img">
+                                <img src="assets/img/banner/banner-5-2.png" alt="banner4">
+                            </div>
+                            <a href="shop.html" class="swiftcart-btn w-100">Shop now <i class="icon-next"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-9">
+                        <div class="xc-product-five__wrapper">
+                            <div class="row g-0 row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-xl-4">
+                                <div class="col-md-4 col-lg-3">
+                                    <div class="xc-product-three__item">
+                                        <div class="xc-product-three__img">
+                                            <img src="assets/img/products/product-9-1.png" alt="product">
+                                        </div>
+                                        <div class="xc-product-three__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (25)
+                                        </div>
+                                        <h3 class="xc-product-three__title"><a href="product-details.html">W41 Bluetooth On Ear Headphone
+                                                with Mic</a></h3>
+                                        <h4 class="xc-product-three__price">$360</h4>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-lg-3">
+                                    <div class="xc-product-three__item">
+                                        <div class="xc-product-three__img">
+                                            <img src="assets/img/products/product-9-2.png" alt="product">
+                                        </div>
+                                        <div class="xc-product-three__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (16)
+                                        </div>
+                                        <h3 class="xc-product-three__title"><a href="product-details.html">Iphone 4G LTE Pro Prepaid
+                                                Smarxchone</a></h3>
+                                        <h4 class="xc-product-three__price">$60</h4>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-lg-3">
+                                    <div class="xc-product-three__item">
+                                        <span class="xc-product-three__deal">22% OFF</span>
+                                        <div class="xc-product-three__img">
+                                            <img src="assets/img/products/product-9-3.png" alt="product">
+                                        </div>
+                                        <div class="xc-product-three__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (54)
+                                        </div>
+                                        <h3 class="xc-product-three__title"><a href="product-details.html">ASICS Women's Gel-Nimbus 25
+                                                LITE-Show...</a></h3>
+                                        <h4 class="xc-product-three__price">$380</h4>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-lg-3">
+                                    <div class="xc-product-three__item">
+                                        <div class="xc-product-three__img">
+                                            <img src="assets/img/products/product-9-4.png" alt="product">
+                                        </div>
+                                        <div class="xc-product-three__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (25)
+                                        </div>
+                                        <h3 class="xc-product-three__title"><a href="product-details.html">27-inch FHD 1080p Gaming LED
+                                                Monitor...</a></h3>
+                                        <h4 class="xc-product-three__price">$160</h4>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-lg-3">
+                                    <div class="xc-product-three__item">
+                                        <div class="xc-product-three__img">
+                                            <img src="assets/img/products/product-9-5.png" alt="product">
+                                        </div>
+                                        <div class="xc-product-three__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (15)
+                                        </div>
+                                        <h3 class="xc-product-three__title"><a href="product-details.html">27-inch FHD 1080p Gaming LED
+                                                Monitor...</a></h3>
+                                        <h4 class="xc-product-three__price">$210</h4>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-lg-3">
+                                    <div class="xc-product-three__item">
+                                        <span class="xc-product-three__deal">45% OFF</span>
+                                        <div class="xc-product-three__img">
+                                            <img src="assets/img/products/product-9-6.png" alt="product">
+                                        </div>
+                                        <div class="xc-product-three__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (17)
+                                        </div>
+                                        <h3 class="xc-product-three__title"><a href="product-details.html">27-inch FHD 1080p IPS Gaming LED
+                                                Monitor</a></h3>
+                                        <h4 class="xc-product-three__price">$210</h4>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-lg-3">
+                                    <div class="xc-product-three__item">
+
+                                        <div class="xc-product-three__img">
+                                            <img src="assets/img/products/product-9-7.png" alt="product">
+                                        </div>
+                                        <div class="xc-product-three__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (45)
+                                        </div>
+                                        <h3 class="xc-product-three__title"><a href="product-details.html">10 “Shutter Exhaust Fan,
+                                                High-speed 820...</a></h3>
+                                        <h4 class="xc-product-three__price">$140</h4>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-lg-3">
+                                    <div class="xc-product-three__item">
+                                        <div class="xc-product-three__img">
+                                            <img src="assets/img/products/product-9-8.png" alt="product">
+                                        </div>
+                                        <div class="xc-product-three__ratting">
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            <i class="icon-star"></i>
+                                            (25)
+                                        </div>
+                                        <h3 class="xc-product-three__title"><a href="product-details.html">Basics Carry-On Travel Backpack
+                                                - Bule</a></h3>
+                                        <h4 class="xc-product-three__price">$70</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- top sale product end -->
+
+        <!-- banner seven start  -->
+        <div class="xc-banner-three xc-banner-seven pb-80">
+            <div class="container">
+                <div class="xc-banner-three__wrapper xc-banner-three__item bg-black">
+                    <div class="xc-banner-three__left">
+                        <div class="xc-banner-three__content">
+                            <span class="xc-banner-three__subtitle">SAVE UP TO $200.00</span>
+                            <h3 class="xc-banner-three__title">iphone Pro</h3>
+                            <p class="xc-banner-three__info">Apple M1 Max Chip. 32GB Unified Memory, <br> 1TB SSD Storage</p>
+                            <div class="xc-banner-three__btn">
+                                <a class="swiftcart-btn" href="shop.html">Shop now <i class="icon-next"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="xc-banner-three__right">
+                        <div class="xc-banner-three__img">
+                            <img src="assets/img/banner/banner-7-1.png" alt="mobile">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- banner seven end -->
+
+        <!-- seller one start  -->
+        <div class="xc-brand-one pb-80">
+            <div class="container">
+                <div class="xc-sec-heading xc-sec-heading-two xc-has-btn">
+                    <div>
+                        <span class="xc-sec-heading__subtitle has-before">Recommended</span>
+                        <h3 class="xc-sec-heading__title">Top Brand</h3>
+                    </div>
+                    <div class="xc-sec-heading__btn">
+                        <a href="shop.html" class="xc-sec-heading-btn">show all</a>
+                    </div>
+                </div>
+                <div class="xc-brand-one__wrapper">
+                    <div class="row gutter-y-20">
+                        <div class="col-sm-6 col-md-3 col-xl-2">
+                            <div class="xc-brand-one__item">
+                                <img src="assets/img/brand/brand-1-1.png" alt="seller">
+                                <h3 class="xc-brand-one__title"><a href="#">Betway</a></h3>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-xl-2">
+                            <div class="xc-brand-one__item">
+                                <img src="assets/img/brand/brand-1-2.png" alt="seller">
+                                <h3 class="xc-brand-one__title"><a href="#">Cool.fm</a></h3>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-xl-2">
+                            <div class="xc-brand-one__item">
+                                <img src="assets/img/brand/brand-1-3.png" alt="seller">
+                                <h3 class="xc-brand-one__title"><a href="#">Suzuki</a></h3>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-xl-2">
+                            <div class="xc-brand-one__item">
+                                <img src="assets/img/brand/brand-1-4.png" alt="seller">
+                                <h3 class="xc-brand-one__title"><a href="#">Samsung</a></h3>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-xl-2">
+                            <div class="xc-brand-one__item">
+                                <img src="assets/img/brand/brand-1-5.png" alt="seller">
+                                <h3 class="xc-brand-one__title"><a href="#">adidas</a></h3>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-xl-2">
+                            <div class="xc-brand-one__item">
+                                <img src="assets/img/brand/brand-1-6.png" alt="seller">
+                                <h3 class="xc-brand-one__title"><a href="#">Ricky’s</a></h3>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-xl-2">
+                            <div class="xc-brand-one__item">
+                                <img src="assets/img/brand/brand-1-7.png" alt="seller">
+                                <h3 class="xc-brand-one__title"><a href="#">Renzzi</a></h3>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-xl-2">
+                            <div class="xc-brand-one__item">
+                                <img src="assets/img/brand/brand-1-8.png" alt="seller">
+                                <h3 class="xc-brand-one__title"><a href="#">Hyundai</a></h3>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-xl-2">
+                            <div class="xc-brand-one__item">
+                                <img src="assets/img/brand/brand-1-9.png" alt="seller">
+                                <h3 class="xc-brand-one__title"><a href="#">Toyota</a></h3>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-xl-2">
+                            <div class="xc-brand-one__item">
+                                <img src="assets/img/brand/brand-1-10.png" alt="seller">
+                                <h3 class="xc-brand-one__title"><a href="#">Puma</a></h3>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-xl-2">
+                            <div class="xc-brand-one__item">
+                                <img src="assets/img/brand/brand-1-11.png" alt="seller">
+                                <h3 class="xc-brand-one__title"><a href="#">Fashion</a></h3>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-xl-2">
+                            <div class="xc-brand-one__item">
+                                <img src="assets/img/brand/brand-1-12.png" alt="seller">
+                                <h3 class="xc-brand-one__title"><a href="#">Duke</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- seller one end  -->
+
+
+
+        <div class="xc-newsletter-form xc-newsletter-form__two pt-60 pb-60 xc-has-overlay" data-bg="assets/img/bg/newsletter-bg.jpg">
+            <div class="container">
+                <div class="xc-newsletter-form__inner">
+                    <div class="row justify-content-center text-center">
+                        <div class="col-lg-8">
+                            <h3 class="xc-newsletter-form__title">Subscribe Newslatter</h3>
+                            <form action="#" class="xc-newsletter-form__main">
+                                <input type="email" placeholder="enter Email address ">
+                                <button type="submit">Send Now</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="xc-footer-one black-bg-2 pt-80">
+                <div class="container">
+                    <div class="xc-footer-one__wrapper pb-60">
+                        <div class="row gutter-y-40">
+                            <div class="col-md-6 col-lg-6 col-xl-3">
+                                <div class="xc-footer-one__widget xc-widget-col-1">
+                                    <div class="xc-footer-one__logo">
+                                        <a href="index.html"><img src="assets/img/logo/white-logo.png" alt="swiftcart" width="180"></a>
+                                    </div>
+                                    <p class="xc-footer-one__about">4517 Washington Ave. Manchester, Kentucky 39495</p>
+                                    <div class="xc-footer-one__cta">
+                                        <span><a href="tel:(629)-555-0129"><i class="icon-phone"></i>+54(0)24 6547
+                                                8796</a></span>
+                                        <span><a href="mailto:demo123@gmail.com"><i class="icon-mail"></i>demo123@gmail.com</a></span>
+                                    </div>
+                                    <div class="xc-footer-one__social">
+                                        <a href="https://facebook.com">
+                                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                                            <span class="sr-only">Facebook</span>
+                                        </a>
+                                        <a href="https://twitter.com">
+                                            <i class="fab fa-x-twitter" aria-hidden="true"></i>
+                                            <span class="sr-only">Twitter</span>
+                                        </a>
+                                        <a href="https://pinterest.com">
+                                            <i class="fab fa-pinterest-p" aria-hidden="true"></i>
+                                            <span class="sr-only">Pinterest</span>
+                                        </a>
+                                        <a href="https://instagram.com">
+                                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                                            <span class="sr-only">Instagram</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-3 col-xl-2">
+                                <div class="xc-footer-one__widget xc-widget-col-2">
+                                    <h3 class="xc-footer-one__widget-title">Quick links</h3>
+                                    <ul class="xc-footer-one__nav">
+                                        <li><a href="about.html">About us</a></li>
+                                        <li><a href="about.html">Our story</a></li>
+                                        <li><a href="team.html">Our Team</a></li>
+                                        <li><a href="blog-list.html">Latest News</a></li>
+                                        <li><a href="blog-list.html">Privacy Policy</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-3 col-xl-2">
+                                <div class="xc-footer-one__widget xc-widget-col-3">
+                                    <h3 class="xc-footer-one__widget-title">Top Category</h3>
+                                    <ul class="xc-footer-one__nav">
+                                        <li><a href="shop.html">Shop Product</a></li>
+                                        <li><a href="cart.html">Shoping Cart </a></li>
+                                        <li><a href="shop.html">Wishlist</a></li>
+                                        <li><a href="about.html">Our story</a></li>
+                                        <li><a href="contact.html">Customer Help</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6 col-xl-2">
+                                <div class="xc-footer-one__widget xc-widget-col-4">
+                                    <h3 class="xc-footer-one__widget-title">Download App</h3>
+                                    <div class="xc-footer-one__download d-flex flex-column gap-3">
+                                        <a href="#"><img src="assets/img/resourse/playstore-download.png" alt="playsote"></a>
+                                        <a href="#"><img src="assets/img/resourse/appstore-download.png" alt="playsote"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6 col-xl-3">
+                                <div class="xc-footer-one__widget xc-widget-col-4">
+                                    <h3 class="xc-footer-one__widget-title">Popular Tag</h3>
+                                    <div class="tagcloud tagcloud-style-2">
+                                        <a href="blog-details.html">Software</a>
+                                        <a href="blog-details.html">Outsourcing</a>
+                                        <a href="blog-details.html">Online</a>
+                                        <a href="blog-details.html">Business</a>
+                                        <a href="blog-details.html">Security</a>
+                                        <a href="blog-details.html">Technology</a>
+                                        <a href="blog-details.html">UI/UX</a>
+                                        <a href="blog-details.html">People</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="xc-footer-one-copyright">
+                    <div class="container">
+                        <div class="xc-footer-one-copyright__wrapper">
+                            <p class="xc-footer-one-copyright__text">&copy; Copyright <span class="xc-dynamic-year"></span> by
+                                <a target="_blank" href="https://themeforest.net/user/SolverWp"> SolverWp </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- xc-page-wrapper -->
+
+    <script src="assets/vendors/jquery/jquery-3.7.0.min.js"></script>
+    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendors/nice-select/js/nice-select.js"></script>
+    <script src="assets/vendors/wow/wow.js"></script>
+    <script src="assets/vendors/meanmenu/js/meanmenu.js"></script>
+    <script src="assets/vendors/jarallax/jarallax.min.js"></script>
+    <script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
+    <script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
+    <script src="assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
+    <script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
+    <script src="assets/vendors/nouislider/nouislider.min.js"></script>
+    <script src="assets/vendors/tiny-slider/tiny-slider.js"></script>
+    <script src="assets/vendors/wnumb/wNumb.min.js"></script>
+    <script src="assets/vendors/owl-carousel/js/owl.carousel.min.js"></script>
+    <script src="assets/vendors/swiper/js/swiper.min.js"></script>
+    <script src="assets/vendors/imagesloaded/imagesloaded.min.js"></script>
+    <script src="assets/vendors/isotope/isotope.js"></script>
+    <script src="assets/vendors/countdown/countdown.min.js"></script>
+    <script src="assets/vendors/jquery-circleType/jquery.circleType.js"></script>
+    <script src="assets/vendors/jquery-lettering/jquery.lettering.min.js"></script>
+    <script src="assets/vendors/ion.rangeSlider/ion.rangeSlider.min.js"></script>
+    <script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
+    <script src="assets/vendors/glightbox/js/glightbox.min.js"></script>
+    <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
+    <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+
+    <!-- template js -->
+    <script src="assets/js/swiftcart.js"></script>
+
+
+</body>
+
+</html>

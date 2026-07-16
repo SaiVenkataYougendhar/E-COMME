@@ -1,0 +1,194 @@
+.xc-comment {
+    margin-top: 60px;
+
+    & ul {
+        & li {
+            margin-bottom: 10px;
+            list-style: none;
+
+            &.children {
+                margin-left: 15px;
+
+                @media #{$md} {
+                    margin-left: 80px;
+                }
+            }
+        }
+    }
+
+    &-form {
+
+        &-title {
+            font-size: 26px;
+            font-weight: 600;
+            margin-bottom: 40px;
+        }
+    }
+
+    &-input {
+        position: relative;
+        margin-bottom: 30px;
+
+        & span {
+            font-weight: 600;
+            color: var(--swiftcart-black);
+            margin-bottom: 12px;
+            display: block;
+        }
+
+        & input,
+        & textarea {
+            height: 55px;
+            padding: 0 20px;
+            width: 100%;
+            font-size: 14px;
+            color: var(--swiftcart-black);
+            outline: none;
+            border: 1px solid transparent;
+            border-radius: 7px;
+            background-color: var(--swiftcart-gray);
+        }
+
+        & textarea {
+            height: 175px;
+            // resize: none;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+    }
+
+    &-title {
+        font-size: 26px;
+        font-weight: 600;
+        margin-bottom: 35px;
+    }
+
+    &-box {
+        margin-bottom: 50px;
+    }
+
+    &-avater {
+        margin-right: 20px;
+
+        & img {
+            width: 60px;
+            height: 60px;
+        }
+    }
+
+    &-name {
+        margin-bottom: 15px;
+
+        & h5 {
+
+            font-size: 18px;
+            line-height: 1;
+            margin-bottom: 10px;
+            text-transform: capitalize;
+
+        }
+
+        & span {
+            color: var(--swiftcart-black);
+            font-size: 16px;
+        }
+    }
+
+    &-text {
+
+        margin-left: 0;
+        margin-top: 15px;
+
+        @media #{$md} {
+            margin-left: 80px;
+        }
+
+        & p {
+            font-size: 16px;
+            color: var(--swiftcart-text);
+            margin-bottom: 15px;
+        }
+    }
+
+    &-reply {
+        margin-top: 10px;
+
+        & a {
+            display: inline-block;
+            color: var(--swiftcart-base);
+            background-color: rgba($color: var(--swiftcart-base-rgb), $alpha: .1);
+            height: 30px;
+            line-height: 30px;
+            padding: 0 15px;
+            font-weight: 500;
+            font-size: 14px;
+            border-radius: 4px;
+            transition: .3s;
+
+            &:hover {
+                color: var(--swiftcart-white);
+                background: var(--swiftcart-base);
+            }
+        }
+    }
+
+    &-agree {
+        padding-left: 5px;
+
+        & input {
+            margin: 0;
+            appearance: none;
+            -moz-appearance: none;
+            display: block;
+            width: 14px;
+            height: 14px;
+            background: var(--swiftcart-white);
+            border: 1px solid var(--swiftcart-border-color);
+            outline: none;
+            flex: 0 0 auto;
+            @include transform(translateY(7px));
+
+            &:checked {
+                position: relative;
+                background-color: var(--swiftcart-base);
+                border-color: transparent;
+
+                &::after {
+                    box-sizing: border-box;
+                    content: '\f00c';
+                    font-weight: 700;
+                    position: absolute;
+                    font-family: "Font Awesome 6 Free";
+                    font-size: 10px;
+                    color: var(--swiftcart-white);
+                    top: 46%;
+                    left: 50%;
+                    @include transform(translate(-50%, -50%));
+                }
+            }
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        & label {
+            padding-left: 8px;
+            color: var(--swiftcart-text);
+
+            & a {
+                color: var(--swiftcart-black);
+                font-weight: 600;
+                padding-left: 4px;
+
+                &:hover {
+                    color: var(--swiftcart-base);
+                }
+            }
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}

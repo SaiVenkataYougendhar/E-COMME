@@ -1,0 +1,35 @@
+/*--------------------------------------------------------------
+# Breadcrumb
+------------------- -------------------------------------------*/
+.xc-breadcrumb {
+    &__area {
+        position: relative;
+        z-index: 1;
+        background-color: #F5F5F5;
+        height: 61px;
+        display: flex;
+        align-items: center;
+    }
+
+    &__list {
+        color: var(--swiftcart-base);
+        font-size: 16px;
+        font-family: var(--swiftcart-heading-font);
+        & .dvdr {
+            color: var(--swiftcart-text);
+            padding-left: 5px;
+            padding-right: 5px;
+            font-size: 10px;
+
+        }
+
+        & a {
+            color: var(--swiftcart-black);
+            transition: .3s;
+
+            &:hover {
+                color: var(--swiftcart-base);
+            }
+        }
+    }
+}

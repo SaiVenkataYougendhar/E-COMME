@@ -1,0 +1,63 @@
+.xc-contact-one{
+    &__map{
+        iframe {
+            width: 100%;
+            height: 467px;
+        }
+    }
+    &__info{
+        margin-bottom: 30px;
+    }
+    &__cta{
+        display: flex;
+        gap: 10px;
+        margin-bottom: 30px;
+        @media #{$lg} {
+            gap: 20px;
+        }
+    }
+    &__icon{
+        span {
+            font-size: 30px;
+            color: var(--swiftcart-base);
+        }
+    }
+    &__ct{
+        a{
+            font-size: 16px;
+            font-weight: 500;
+            color: var(--swiftcart-black);
+            &:hover{
+                color: var(--swiftcart-base);
+            }
+        }
+    }
+    &__head{
+        color: var(--swiftcart-grey);
+        font-size: 18px;
+        margin-bottom: 0;
+        font-weight: 400;
+    }
+}
+
+.xc-contact-main{
+    &__title{
+        font-size: 32px;
+        text-transform: capitalize;
+    }
+    &__info{
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    &__form{
+        & textarea,
+        & input {
+            background-color: transparent;
+            border: 1px solid var(--swiftcart-border-color);
+        }
+        & textarea{
+            padding-top: 15px;
+            height: 110px;
+        }
+    }
+}

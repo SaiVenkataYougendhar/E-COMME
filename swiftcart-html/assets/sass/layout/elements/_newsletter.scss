@@ -1,0 +1,129 @@
+.xc-newsletter-one {
+    &__subtitle {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 36.5%;
+        margin-bottom: 10px;
+        letter-spacing: 7.3px;
+        text-transform: uppercase;
+        color: var(--swiftcart-black);
+        @media #{$md} {
+            font-size: 20px;
+        }
+    }
+
+    &__title {
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 60.5px;
+        text-transform: uppercase;
+        margin-bottom: 18px;
+        @media #{$md} {
+            font-size: 40px;
+        }
+        span {
+            font-weight: 300;
+            text-decoration: underline;
+        }
+    }
+
+    &__info {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    &__form {
+        margin-top: 60px;
+
+        form {
+            position: relative;
+            max-width: 730px;
+        }
+
+        & input {
+            height: 66px;
+            padding-right: 250px;
+            text-transform: capitalize;
+            background-color: var(--swiftcart-white);
+        }
+
+        & button {
+            right: 0;
+            top: 0;
+            height: 66px;
+            padding-left: 36px;
+            padding-right: 36px;
+            text-transform: uppercase;
+            position: absolute;
+            color: var(--swiftcart-white);
+            background-color: var(--swiftcart-black);
+
+            &:hover {
+                background-color: var(--swiftcart-base);
+            }
+        }
+    }
+}
+
+.xc-newsletter-form {
+
+    &.xc-has-overlay {
+        position: relative;
+        z-index: 1;
+
+        &::before {
+            position: absolute;
+            content: '';
+            inset: 0;
+            display: block;
+            background-color: rgba($color: var(--swiftcart-base-rgb), $alpha: .87);
+            z-index: -1;
+        }
+    }
+
+    &__two {
+        &.xc-has-overlay {
+            &::before {
+                position: absolute;
+                content: '';
+                inset: 0;
+                display: block;
+                background-color: #2B2F33;
+                z-index: -1;
+            }
+        }
+    }
+
+    &__main {
+        position: relative;
+        display: flex;
+
+        input {
+            background-color: var(--swiftcart-white);
+            text-transform: capitalize;
+        }
+
+        button {
+            flex-shrink: 0;
+            background-color: var(--swiftcart-black);
+            color: var(--swiftcart-white);
+            padding-left: 30px;
+            padding-right: 30px;
+
+            @media #{$lg} {
+                padding-left: 70px;
+                padding-right: 70px;
+            }
+
+            &:hover {
+                background-color: var(--swiftcart-secondary);
+            }
+        }
+    }
+
+    &__title {
+        color: var(--swiftcart-white);
+        margin-bottom: 20px;
+    }
+}

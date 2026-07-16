@@ -1,0 +1,157 @@
+// cart page
+
+.xc-cart-page {
+    &__table {
+        overflow: auto;
+       
+        table {
+            background: var(--swiftcart-white);
+            border-radius: 0;
+            text-align: center;
+            margin-bottom: 0;
+            border-radius: 8px;
+            width: 800px;
+            @media #{$xl} {
+                width: 100%;
+            }
+            tr {
+                border-bottom: 1px solid var(--swiftcart-border-color);
+            }
+
+            td {
+                // border-top: medium none;
+                padding: 20px 10px;
+                vertical-align: middle;
+                font-size: 16px;
+
+                &.product-name {
+                    font-size: 16px;
+                    font-weight: 400;
+                    text-transform: capitalize;
+                }
+
+                &.product-thumbnail {
+                    width: 80px;
+                    height: 90px;
+                    padding: 0;
+                    margin: 40px 30px;
+                    display: inline-block;
+                    overflow: hidden;
+                    background-color: var(--swiftcart-gray);
+
+                    & img {
+                        width: 100%;
+                        height: auto;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+    }
+}
+.accordion-item{
+    border: 0;
+}
+.shop_cart_widget {
+    .accordion-button {
+        background-color: var(--swiftcart-base);
+        color: var(--swiftcart-white);
+        font-size: 16px;
+        font-weight: 700;
+
+        &:focus {
+            box-shadow: none;
+        }
+    }
+    .accordion-body{
+        position: relative;
+       padding: 20px;
+       padding-bottom: 70px;
+       border: 0;
+    }
+    .accordion-button::after {
+        display: none;
+    }
+
+    .cart-coupon-code {
+        position: relative;
+        margin-bottom:20px;
+        input {
+            height: 50px;
+            border: 1px solid rgba($color: #000000, $alpha: 0.1);
+            background-color: transparent;
+            padding-right: 130px;
+            border-radius: 4px;
+        }
+
+        button {
+            position: absolute;
+            right: 0;
+            color: var(--swiftcart-base);
+            line-height: 50px;
+            font-size: 16px;
+            font-weight: 500;
+            text-transform: uppercase;
+            padding-left: 30px;
+            padding-right: 30px;
+            border-left: 1px solid rgba($color: #000000, $alpha: 0.1);
+
+            &:hover {
+                background-color: var(--swiftcart-base);
+                color: var(--swiftcart-white);
+            }
+        }
+    }
+    .cart-totails,
+    .cart-subtitle {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        h4{
+            font-size: 16px;
+        }
+    }
+    .cart-totails{
+        h4{
+            text-transform: uppercase;
+        }
+    }
+    .cart-checkout{
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+        border-bottom: 1px solid var(--swiftcart-border-color);
+        h4{
+            font-size: 16px;
+        }
+    }
+    .cart-checkout-btn{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        border-radius: 0 0 4px 4px;
+        display: block;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        text-transform: uppercase;
+        color: var(--swiftcart-white);
+        background-color: var(--swiftcart-base);
+        overflow: hidden;
+        &:hover{
+            background-color: var(--swiftcart-secondary);
+        }
+    }
+}
+
+.checkout-form-list{
+    margin-bottom: 30px;
+    textarea,
+    input {
+        background-color:var(--swiftcart-white);
+    }
+    textarea{
+        height: 240px;
+    }
+}

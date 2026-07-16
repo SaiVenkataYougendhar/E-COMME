@@ -1,0 +1,32 @@
+.xc-video-one{
+    background-size: cover;
+    background-position: center;
+    &__overlay{
+        position: relative;
+        z-index: 1;
+        &::before{
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: var(--swiftcart-black);
+            top: 0;
+            left: 0;
+            mix-blend-mode: multiply;
+            opacity: .9;
+            z-index: -1;
+        }
+    }
+    &__title{
+        font-size: 35px;
+        color: var(--swiftcart-white);
+        @media #{$lg} {
+            font-size: 55px;
+        }
+    }
+    &__info{
+        font-size: 20px;
+        color: var(--swiftcart-white);
+        opacity: .8;
+    }
+}
